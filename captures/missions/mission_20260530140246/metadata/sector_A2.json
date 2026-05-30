@@ -1,0 +1,84 @@
+{
+  "mission_id": "mission_20260530140246",
+  "sector_id": "A2",
+  "target_name": "Custom Coordinates",
+  "mission_type": "Reconnaissance Patrol",
+  "timestamp": "2026-05-30T19:02:48",
+  "centre_lat": 33.55933799500531,
+  "centre_lng": 72.83198914586804,
+  "north": 33.560460883974045,
+  "south": 33.557990528242826,
+  "east": 72.83360608089109,
+  "west": 72.83037221084498,
+  "altitude": 500.0,
+  "heading": 90.0,
+  "capture_tile_zoom": 18,
+  "width": 1280,
+  "height": 900,
+  "image_format": "jpg",
+  "jpeg_quality": 0.98,
+  "detections": [
+    {
+      "class_name": "airplane",
+      "confidence": 0.9322,
+      "polygon": [
+        [
+          770.5,
+          788.06
+        ],
+        [
+          780.96,
+          669.13
+        ],
+        [
+          625.46,
+          655.46
+        ],
+        [
+          615.0,
+          774.39
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.9141,
+      "polygon": [
+        [
+          818.19,
+          509.5
+        ],
+        [
+          827.9,
+          424.05
+        ],
+        [
+          734.93,
+          413.48
+        ],
+        [
+          725.21,
+          498.93
+        ]
+      ]
+    }
+  ],
+  "detection_count": 2,
+  "class_counts": {
+    "airplane": 2,
+    "airport": 0,
+    "storage_tank": 0
+  },
+  "average_confidence": 0.9232,
+  "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530140246\\raw\\sector_A2.jpg",
+  "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530140246\\predictions\\sector_A2_pred.jpg",
+  "raw_image_url": "/captures/missions/mission_20260530140246/raw/sector_A2.jpg",
+  "prediction_image_url": "/captures/missions/mission_20260530140246/predictions/sector_A2_pred.jpg",
+  "overlap_percent": 20,
+  "scan_area_width_km": 1,
+  "scan_area_height_km": 1,
+  "grid_rows": 4,
+  "grid_columns": 4,
+  "scan_quality": "detection",
+  "capture_format": "jpg"
+}

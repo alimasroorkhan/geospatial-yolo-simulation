@@ -1,0 +1,2 @@
+mission_id,sector_id,status,centre_lat,centre_lng,north,south,east,west,aircraft_count,airport_count,storage_tank_count,total_detections,average_confidence,prediction_url
+mission_integrated_smoke,A1,Complete,33.55425,72.830417,33.555,33.5535,72.8312,72.8296,0,0,0,0,0,/captures/missions/mission_integrated_smoke/predictions/sector_A1_pred.jpg

@@ -1,0 +1,1534 @@
+{
+  "mission_id": "mission_20260530131900",
+  "target_name": "Nur Khan Base",
+  "mission_type": "Reconnaissance Patrol",
+  "scan_area_width_km": 2,
+  "scan_area_height_km": 2,
+  "grid_rows": 4,
+  "grid_columns": 4,
+  "overlap_percent": 20,
+  "scan_quality": "detection",
+  "capture_format": "jpg",
+  "summary": {
+    "total_detections": 40,
+    "airplane_count": 35,
+    "airport_count": 4,
+    "storage_tank_count": 1
+  },
+  "sectors": [
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "A1",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:01",
+      "centre_lat": 33.61659833381243,
+      "centre_lng": 73.0935772742628,
+      "north": 33.618844111749915,
+      "south": 33.61390340028746,
+      "east": 73.09681316455769,
+      "west": 73.09088069901706,
+      "altitude": 500.0,
+      "heading": 30.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.9362,
+          "polygon": [
+            [
+              819.35,
+              682.53
+            ],
+            [
+              819.62,
+              640.75
+            ],
+            [
+              758.85,
+              640.36
+            ],
+            [
+              758.58,
+              682.14
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.9245,
+          "polygon": [
+            [
+              834.91,
+              622.47
+            ],
+            [
+              837.53,
+              578.69
+            ],
+            [
+              775.3,
+              574.97
+            ],
+            [
+              772.68,
+              618.75
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.9161,
+          "polygon": [
+            [
+              660.1,
+              677.56
+            ],
+            [
+              662.6,
+              630.25
+            ],
+            [
+              599.92,
+              626.94
+            ],
+            [
+              597.41,
+              674.24
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.898,
+          "polygon": [
+            [
+              665.84,
+              614.74
+            ],
+            [
+              669.24,
+              566.44
+            ],
+            [
+              607.27,
+              562.08
+            ],
+            [
+              603.87,
+              610.38
+            ]
+          ]
+        }
+      ],
+      "detection_count": 4,
+      "class_counts": {
+        "airplane": 4,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0.9187,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_A1.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_A1_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_A1.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_A1_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "A2",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:02",
+      "centre_lat": 33.61659833381243,
+      "centre_lng": 73.09897042475427,
+      "north": 33.618844111749915,
+      "south": 33.61390340028746,
+      "east": 73.10220631504916,
+      "west": 73.09573453445938,
+      "altitude": 500.0,
+      "heading": 90.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [
+        {
+          "class_name": "airport",
+          "confidence": 0.3339,
+          "polygon": [
+            [
+              1228.93,
+              769.2
+            ],
+            [
+              1367.46,
+              395.44
+            ],
+            [
+              164.67,
+              -50.35
+            ],
+            [
+              26.14,
+              323.41
+            ]
+          ]
+        }
+      ],
+      "detection_count": 1,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 1,
+        "storage_tank": 0
+      },
+      "average_confidence": 0.3339,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_A2.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_A2_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_A2.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_A2_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "A3",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:03",
+      "centre_lat": 33.61659833381243,
+      "centre_lng": 73.10436357524574,
+      "north": 33.618844111749915,
+      "south": 33.61390340028746,
+      "east": 73.10759946554063,
+      "west": 73.10112768495085,
+      "altitude": 500.0,
+      "heading": 90.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [],
+      "detection_count": 0,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_A3.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_A3_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_A3.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_A3_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "A4",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:04",
+      "centre_lat": 33.61659833381243,
+      "centre_lng": 73.10975672573721,
+      "north": 33.618844111749915,
+      "south": 33.61390340028746,
+      "east": 73.11245330098295,
+      "west": 73.10652083544232,
+      "altitude": 500.0,
+      "heading": 90.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [],
+      "detection_count": 0,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_A4.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_A4_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_A4.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_A4_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "B1",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:09",
+      "centre_lat": 33.612106777937484,
+      "centre_lng": 73.0935772742628,
+      "north": 33.614801711462455,
+      "south": 33.609411844412506,
+      "east": 73.09681316455769,
+      "west": 73.09088069901706,
+      "altitude": 500.0,
+      "heading": 270.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.905,
+          "polygon": [
+            [
+              977.11,
+              221.41
+            ],
+            [
+              983.32,
+              134.56
+            ],
+            [
+              859.43,
+              125.7
+            ],
+            [
+              853.23,
+              212.56
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.6844,
+          "polygon": [
+            [
+              1264.42,
+              227.91
+            ],
+            [
+              1313.19,
+              190.75
+            ],
+            [
+              1272.17,
+              136.91
+            ],
+            [
+              1223.4,
+              174.06
+            ]
+          ]
+        },
+        {
+          "class_name": "storage_tank",
+          "confidence": 0.2838,
+          "polygon": [
+            [
+              328.04,
+              204.81
+            ],
+            [
+              327.58,
+              160.48
+            ],
+            [
+              258.55,
+              161.18
+            ],
+            [
+              259.01,
+              205.51
+            ]
+          ]
+        }
+      ],
+      "detection_count": 3,
+      "class_counts": {
+        "airplane": 2,
+        "airport": 0,
+        "storage_tank": 1
+      },
+      "average_confidence": 0.6244,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_B1.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_B1_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_B1.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_B1_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "B2",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:08",
+      "centre_lat": 33.612106777937484,
+      "centre_lng": 73.09897042475427,
+      "north": 33.614801711462455,
+      "south": 33.609411844412506,
+      "east": 73.10220631504916,
+      "west": 73.09573453445938,
+      "altitude": 500.0,
+      "heading": 270.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.9202,
+          "polygon": [
+            [
+              1039.7,
+              693.7
+            ],
+            [
+              1038.41,
+              631.1
+            ],
+            [
+              972.06,
+              632.47
+            ],
+            [
+              973.35,
+              695.07
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.9155,
+          "polygon": [
+            [
+              827.34,
+              831.27
+            ],
+            [
+              867.3,
+              794.01
+            ],
+            [
+              821.0,
+              744.36
+            ],
+            [
+              781.05,
+              781.62
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.9066,
+          "polygon": [
+            [
+              741.38,
+              760.87
+            ],
+            [
+              779.57,
+              721.25
+            ],
+            [
+              726.41,
+              670.01
+            ],
+            [
+              688.22,
+              709.62
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.9057,
+          "polygon": [
+            [
+              898.26,
+              892.89
+            ],
+            [
+              938.61,
+              851.02
+            ],
+            [
+              886.57,
+              800.86
+            ],
+            [
+              846.22,
+              842.73
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8929,
+          "polygon": [
+            [
+              557.19,
+              321.36
+            ],
+            [
+              610.6,
+              295.29
+            ],
+            [
+              580.96,
+              234.56
+            ],
+            [
+              527.55,
+              260.63
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8915,
+          "polygon": [
+            [
+              662.39,
+              697.05
+            ],
+            [
+              700.39,
+              656.72
+            ],
+            [
+              650.33,
+              609.54
+            ],
+            [
+              612.32,
+              649.86
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8847,
+          "polygon": [
+            [
+              455.65,
+              447.95
+            ],
+            [
+              511.19,
+              424.0
+            ],
+            [
+              484.57,
+              362.26
+            ],
+            [
+              429.03,
+              386.21
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8796,
+          "polygon": [
+            [
+              263.4,
+              307.6
+            ],
+            [
+              319.91,
+              278.12
+            ],
+            [
+              288.92,
+              218.72
+            ],
+            [
+              232.41,
+              248.2
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8776,
+          "polygon": [
+            [
+              390.77,
+              371.28
+            ],
+            [
+              447.87,
+              344.88
+            ],
+            [
+              420.74,
+              286.22
+            ],
+            [
+              363.64,
+              312.63
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8769,
+          "polygon": [
+            [
+              200.42,
+              227.91
+            ],
+            [
+              260.63,
+              200.87
+            ],
+            [
+              233.07,
+              139.48
+            ],
+            [
+              172.86,
+              166.52
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8765,
+          "polygon": [
+            [
+              493.71,
+              244.39
+            ],
+            [
+              551.28,
+              219.22
+            ],
+            [
+              524.76,
+              158.56
+            ],
+            [
+              467.19,
+              183.72
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8397,
+          "polygon": [
+            [
+              1042.07,
+              517.54
+            ],
+            [
+              1041.25,
+              488.02
+            ],
+            [
+              1010.31,
+              488.88
+            ],
+            [
+              1011.13,
+              518.4
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.4636,
+          "polygon": [
+            [
+              1050.48,
+              554.67
+            ],
+            [
+              1049.87,
+              531.77
+            ],
+            [
+              1024.07,
+              532.45
+            ],
+            [
+              1024.68,
+              555.36
+            ]
+          ]
+        }
+      ],
+      "detection_count": 13,
+      "class_counts": {
+        "airplane": 13,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0.8562,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_B2.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_B2_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_B2.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_B2_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "B3",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:06",
+      "centre_lat": 33.612106777937484,
+      "centre_lng": 73.10436357524574,
+      "north": 33.614801711462455,
+      "south": 33.609411844412506,
+      "east": 73.10759946554063,
+      "west": 73.10112768495085,
+      "altitude": 500.0,
+      "heading": 270.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.9164,
+          "polygon": [
+            [
+              694.49,
+              712.68
+            ],
+            [
+              723.19,
+              659.73
+            ],
+            [
+              664.49,
+              627.9
+            ],
+            [
+              635.78,
+              680.85
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8911,
+          "polygon": [
+            [
+              436.66,
+              889.36
+            ],
+            [
+              480.36,
+              813.86
+            ],
+            [
+              406.21,
+              770.94
+            ],
+            [
+              362.51,
+              846.44
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8805,
+          "polygon": [
+            [
+              558.18,
+              815.82
+            ],
+            [
+              600.18,
+              741.39
+            ],
+            [
+              523.47,
+              698.1
+            ],
+            [
+              481.47,
+              772.54
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8171,
+          "polygon": [
+            [
+              741.61,
+              633.04
+            ],
+            [
+              783.66,
+              605.52
+            ],
+            [
+              761.04,
+              570.97
+            ],
+            [
+              719.0,
+              598.49
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8117,
+          "polygon": [
+            [
+              906.36,
+              487.48
+            ],
+            [
+              934.49,
+              464.65
+            ],
+            [
+              914.99,
+              440.61
+            ],
+            [
+              886.85,
+              463.45
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.271,
+          "polygon": [
+            [
+              328.02,
+              907.92
+            ],
+            [
+              330.71,
+              872.72
+            ],
+            [
+              247.17,
+              866.35
+            ],
+            [
+              244.48,
+              901.55
+            ]
+          ]
+        }
+      ],
+      "detection_count": 6,
+      "class_counts": {
+        "airplane": 6,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0.7646,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_B3.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_B3_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_B3.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_B3_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "B4",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:05",
+      "centre_lat": 33.612106777937484,
+      "centre_lng": 73.10975672573721,
+      "north": 33.614801711462455,
+      "south": 33.609411844412506,
+      "east": 73.11245330098295,
+      "west": 73.10652083544232,
+      "altitude": 500.0,
+      "heading": 180.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [
+        {
+          "class_name": "airport",
+          "confidence": 0.3714,
+          "polygon": [
+            [
+              1088.78,
+              955.04
+            ],
+            [
+              1194.83,
+              644.34
+            ],
+            [
+              19.99,
+              243.35
+            ],
+            [
+              -86.06,
+              554.05
+            ]
+          ]
+        }
+      ],
+      "detection_count": 1,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 1,
+        "storage_tank": 0
+      },
+      "average_confidence": 0.3714,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_B4.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_B4_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_B4.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_B4_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "C1",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:10",
+      "centre_lat": 33.60761522206252,
+      "centre_lng": 73.0935772742628,
+      "north": 33.6103101555875,
+      "south": 33.60492028853755,
+      "east": 73.09681316455769,
+      "west": 73.09088069901706,
+      "altitude": 500.0,
+      "heading": 180.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [
+        {
+          "class_name": "airport",
+          "confidence": 0.3064,
+          "polygon": [
+            [
+              443.76,
+              276.07
+            ],
+            [
+              427.13,
+              189.29
+            ],
+            [
+              217.73,
+              229.41
+            ],
+            [
+              234.35,
+              316.19
+            ]
+          ]
+        }
+      ],
+      "detection_count": 1,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 1,
+        "storage_tank": 0
+      },
+      "average_confidence": 0.3064,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_C1.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_C1_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_C1.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_C1_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "C2",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:11",
+      "centre_lat": 33.60761522206252,
+      "centre_lng": 73.09897042475427,
+      "north": 33.6103101555875,
+      "south": 33.60492028853755,
+      "east": 73.10220631504916,
+      "west": 73.09573453445938,
+      "altitude": 500.0,
+      "heading": 90.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.9105,
+          "polygon": [
+            [
+              830.32,
+              82.44
+            ],
+            [
+              867.09,
+              43.01
+            ],
+            [
+              815.61,
+              -5.0
+            ],
+            [
+              778.84,
+              34.43
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8963,
+          "polygon": [
+            [
+              896.81,
+              143.22
+            ],
+            [
+              937.74,
+              102.83
+            ],
+            [
+              886.97,
+              51.37
+            ],
+            [
+              846.03,
+              91.77
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8771,
+          "polygon": [
+            [
+              1026.51,
+              310.7
+            ],
+            [
+              1065.71,
+              282.07
+            ],
+            [
+              1040.27,
+              247.25
+            ],
+            [
+              1001.08,
+              275.87
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.874,
+          "polygon": [
+            [
+              1096.82,
+              398.78
+            ],
+            [
+              1139.56,
+              365.14
+            ],
+            [
+              1113.76,
+              332.37
+            ],
+            [
+              1071.02,
+              366.0
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8524,
+          "polygon": [
+            [
+              1207.8,
+              311.07
+            ],
+            [
+              1251.13,
+              281.43
+            ],
+            [
+              1226.88,
+              245.97
+            ],
+            [
+              1183.55,
+              275.6
+            ]
+          ]
+        }
+      ],
+      "detection_count": 5,
+      "class_counts": {
+        "airplane": 5,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0.8821,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_C2.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_C2_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_C2.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_C2_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "C3",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:12",
+      "centre_lat": 33.60761522206252,
+      "centre_lng": 73.10436357524574,
+      "north": 33.6103101555875,
+      "south": 33.60492028853755,
+      "east": 73.10759946554063,
+      "west": 73.10112768495085,
+      "altitude": 500.0,
+      "heading": 90.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.889,
+          "polygon": [
+            [
+              143.99,
+              311.85
+            ],
+            [
+              181.98,
+              283.03
+            ],
+            [
+              154.92,
+              247.36
+            ],
+            [
+              116.93,
+              276.19
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8852,
+          "polygon": [
+            [
+              430.93,
+              142.8
+            ],
+            [
+              481.36,
+              67.13
+            ],
+            [
+              410.34,
+              19.8
+            ],
+            [
+              359.91,
+              95.47
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8806,
+          "polygon": [
+            [
+              321.83,
+              221.18
+            ],
+            [
+              370.91,
+              142.73
+            ],
+            [
+              299.78,
+              98.22
+            ],
+            [
+              250.69,
+              176.67
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.873,
+          "polygon": [
+            [
+              30.47,
+              399.84
+            ],
+            [
+              72.75,
+              367.55
+            ],
+            [
+              44.78,
+              330.92
+            ],
+            [
+              2.49,
+              363.22
+            ]
+          ]
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.3386,
+          "polygon": [
+            [
+              579.32,
+              48.33
+            ],
+            [
+              572.29,
+              -12.21
+            ],
+            [
+              496.32,
+              -3.39
+            ],
+            [
+              503.34,
+              57.15
+            ]
+          ]
+        }
+      ],
+      "detection_count": 5,
+      "class_counts": {
+        "airplane": 5,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0.7733,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_C3.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_C3_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_C3.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_C3_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "C4",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:13",
+      "centre_lat": 33.60761522206252,
+      "centre_lng": 73.10975672573721,
+      "north": 33.6103101555875,
+      "south": 33.60492028853755,
+      "east": 73.11245330098295,
+      "west": 73.10652083544232,
+      "altitude": 500.0,
+      "heading": 90.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [],
+      "detection_count": 0,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_C4.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_C4_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_C4.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_C4_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "D1",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:17",
+      "centre_lat": 33.60312366618757,
+      "centre_lng": 73.0935772742628,
+      "north": 33.60581859971254,
+      "south": 33.60087788825009,
+      "east": 73.09681316455769,
+      "west": 73.09088069901706,
+      "altitude": 500.0,
+      "heading": 270.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [],
+      "detection_count": 0,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_D1.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_D1_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_D1.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_D1_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "D2",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:16",
+      "centre_lat": 33.60312366618757,
+      "centre_lng": 73.09897042475427,
+      "north": 33.60581859971254,
+      "south": 33.60087788825009,
+      "east": 73.10220631504916,
+      "west": 73.09573453445938,
+      "altitude": 500.0,
+      "heading": 270.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [],
+      "detection_count": 0,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_D2.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_D2_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_D2.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_D2_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "D3",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:15",
+      "centre_lat": 33.60312366618757,
+      "centre_lng": 73.10436357524574,
+      "north": 33.60581859971254,
+      "south": 33.60087788825009,
+      "east": 73.10759946554063,
+      "west": 73.10112768495085,
+      "altitude": 500.0,
+      "heading": 270.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [
+        {
+          "class_name": "airport",
+          "confidence": 0.2768,
+          "polygon": [
+            [
+              973.69,
+              762.97
+            ],
+            [
+              970.66,
+              715.76
+            ],
+            [
+              297.78,
+              758.99
+            ],
+            [
+              300.81,
+              806.19
+            ]
+          ]
+        }
+      ],
+      "detection_count": 1,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 1,
+        "storage_tank": 0
+      },
+      "average_confidence": 0.2768,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_D3.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_D3_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_D3.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_D3_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    },
+    {
+      "mission_id": "mission_20260530131900",
+      "sector_id": "D4",
+      "target_name": "Nur Khan Base",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-30T18:19:14",
+      "centre_lat": 33.60312366618757,
+      "centre_lng": 73.10975672573721,
+      "north": 33.60581859971254,
+      "south": 33.60087788825009,
+      "east": 73.11245330098295,
+      "west": 73.10652083544232,
+      "altitude": 500.0,
+      "heading": 180.0,
+      "capture_tile_zoom": 18,
+      "width": 1280,
+      "height": 900,
+      "image_format": "jpg",
+      "jpeg_quality": 0.98,
+      "detections": [],
+      "detection_count": 0,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\raw\\sector_D4.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530131900\\predictions\\sector_D4_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_20260530131900/raw/sector_D4.jpg",
+      "prediction_image_url": "/captures/missions/mission_20260530131900/predictions/sector_D4_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 2,
+      "scan_area_height_km": 2,
+      "grid_rows": 4,
+      "grid_columns": 4,
+      "scan_quality": "detection",
+      "capture_format": "jpg"
+    }
+  ]
+}

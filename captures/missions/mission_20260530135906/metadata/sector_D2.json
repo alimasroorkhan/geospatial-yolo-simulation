@@ -1,0 +1,656 @@
+{
+  "mission_id": "mission_20260530135906",
+  "sector_id": "D2",
+  "target_name": "Custom Coordinates",
+  "mission_type": "Reconnaissance Patrol",
+  "timestamp": "2026-05-30T18:59:21",
+  "centre_lat": 33.55007579292275,
+  "centre_lng": 73.0735618319975,
+  "north": 33.55209699306648,
+  "south": 33.548391459469634,
+  "east": 73.07598721093208,
+  "west": 73.0711364530629,
+  "altitude": 500.0,
+  "heading": 270.0,
+  "capture_tile_zoom": 18,
+  "width": 1280,
+  "height": 900,
+  "image_format": "jpg",
+  "jpeg_quality": 0.98,
+  "detections": [
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.9127,
+      "polygon": [
+        [
+          538.02,
+          252.1
+        ],
+        [
+          537.04,
+          197.24
+        ],
+        [
+          463.53,
+          198.54
+        ],
+        [
+          464.51,
+          253.41
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.9023,
+      "polygon": [
+        [
+          1015.48,
+          104.61
+        ],
+        [
+          1014.5,
+          43.07
+        ],
+        [
+          935.82,
+          44.34
+        ],
+        [
+          936.81,
+          105.87
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.899,
+      "polygon": [
+        [
+          410.91,
+          130.75
+        ],
+        [
+          410.28,
+          89.04
+        ],
+        [
+          355.34,
+          89.87
+        ],
+        [
+          355.97,
+          131.58
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8861,
+      "polygon": [
+        [
+          420.95,
+          369.79
+        ],
+        [
+          420.32,
+          329.52
+        ],
+        [
+          366.45,
+          330.37
+        ],
+        [
+          367.08,
+          370.63
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8743,
+      "polygon": [
+        [
+          374.09,
+          250.61
+        ],
+        [
+          373.59,
+          193.18
+        ],
+        [
+          300.31,
+          193.8
+        ],
+        [
+          300.8,
+          251.24
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8693,
+      "polygon": [
+        [
+          718.76,
+          130.72
+        ],
+        [
+          718.78,
+          87.41
+        ],
+        [
+          664.95,
+          87.38
+        ],
+        [
+          664.92,
+          130.69
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8651,
+      "polygon": [
+        [
+          724.39,
+          373.14
+        ],
+        [
+          724.38,
+          325.93
+        ],
+        [
+          666.6,
+          325.95
+        ],
+        [
+          666.61,
+          373.15
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8521,
+      "polygon": [
+        [
+          966.34,
+          266.94
+        ],
+        [
+          965.76,
+          197.36
+        ],
+        [
+          866.54,
+          198.18
+        ],
+        [
+          867.12,
+          267.76
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8329,
+      "polygon": [
+        [
+          833.43,
+          162.89
+        ],
+        [
+          832.86,
+          111.17
+        ],
+        [
+          764.73,
+          111.92
+        ],
+        [
+          765.3,
+          163.64
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8158,
+      "polygon": [
+        [
+          725.12,
+          260.37
+        ],
+        [
+          724.51,
+          196.38
+        ],
+        [
+          647.64,
+          197.11
+        ],
+        [
+          648.25,
+          261.1
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8011,
+      "polygon": [
+        [
+          372.94,
+          484.16
+        ],
+        [
+          371.87,
+          443.5
+        ],
+        [
+          320.66,
+          444.84
+        ],
+        [
+          321.73,
+          485.51
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.7989,
+      "polygon": [
+        [
+          548.97,
+          496.25
+        ],
+        [
+          549.1,
+          435.56
+        ],
+        [
+          469.33,
+          435.4
+        ],
+        [
+          469.2,
+          496.08
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.7973,
+      "polygon": [
+        [
+          1166.21,
+          679.58
+        ],
+        [
+          1163.96,
+          622.75
+        ],
+        [
+          1090.88,
+          625.64
+        ],
+        [
+          1093.13,
+          682.47
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.7513,
+      "polygon": [
+        [
+          1063.1,
+          586.75
+        ],
+        [
+          1062.67,
+          532.68
+        ],
+        [
+          986.47,
+          533.28
+        ],
+        [
+          986.89,
+          587.35
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.7273,
+      "polygon": [
+        [
+          769.92,
+          570.46
+        ],
+        [
+          769.09,
+          510.0
+        ],
+        [
+          679.35,
+          511.24
+        ],
+        [
+          680.18,
+          571.7
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.7227,
+      "polygon": [
+        [
+          1281.6,
+          661.28
+        ],
+        [
+          1282.48,
+          595.42
+        ],
+        [
+          1246.33,
+          594.94
+        ],
+        [
+          1245.45,
+          660.79
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.7039,
+      "polygon": [
+        [
+          931.43,
+          494.22
+        ],
+        [
+          931.61,
+          440.28
+        ],
+        [
+          853.77,
+          440.01
+        ],
+        [
+          853.59,
+          493.95
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.6774,
+      "polygon": [
+        [
+          693.91,
+          766.97
+        ],
+        [
+          693.84,
+          717.83
+        ],
+        [
+          634.22,
+          717.93
+        ],
+        [
+          634.3,
+          767.06
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.6748,
+      "polygon": [
+        [
+          234.42,
+          202.71
+        ],
+        [
+          233.95,
+          171.67
+        ],
+        [
+          193.23,
+          172.28
+        ],
+        [
+          193.7,
+          203.32
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.6294,
+      "polygon": [
+        [
+          1203.95,
+          561.71
+        ],
+        [
+          1204.08,
+          520.69
+        ],
+        [
+          1153.99,
+          520.53
+        ],
+        [
+          1153.86,
+          561.56
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.622,
+      "polygon": [
+        [
+          898.35,
+          635.1
+        ],
+        [
+          899.03,
+          586.66
+        ],
+        [
+          819.07,
+          585.54
+        ],
+        [
+          818.39,
+          633.98
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.6217,
+      "polygon": [
+        [
+          286.13,
+          353.21
+        ],
+        [
+          285.75,
+          297.08
+        ],
+        [
+          213.54,
+          297.56
+        ],
+        [
+          213.92,
+          353.69
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.6177,
+      "polygon": [
+        [
+          407.92,
+          613.71
+        ],
+        [
+          407.55,
+          571.67
+        ],
+        [
+          359.26,
+          572.1
+        ],
+        [
+          359.63,
+          614.13
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.6038,
+      "polygon": [
+        [
+          1222.44,
+          454.84
+        ],
+        [
+          1221.41,
+          406.59
+        ],
+        [
+          1163.89,
+          407.81
+        ],
+        [
+          1164.91,
+          456.06
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.5985,
+      "polygon": [
+        [
+          670.74,
+          427.59
+        ],
+        [
+          670.73,
+          400.11
+        ],
+        [
+          636.39,
+          400.13
+        ],
+        [
+          636.4,
+          427.61
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.5882,
+      "polygon": [
+        [
+          673.99,
+          470.96
+        ],
+        [
+          673.39,
+          437.62
+        ],
+        [
+          627.59,
+          438.44
+        ],
+        [
+          628.19,
+          471.78
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.588,
+      "polygon": [
+        [
+          1118.11,
+          367.51
+        ],
+        [
+          1117.93,
+          313.21
+        ],
+        [
+          1045.54,
+          313.45
+        ],
+        [
+          1045.72,
+          367.76
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.5153,
+      "polygon": [
+        [
+          500.41,
+          745.91
+        ],
+        [
+          499.38,
+          671.07
+        ],
+        [
+          402.66,
+          672.41
+        ],
+        [
+          403.69,
+          747.24
+        ]
+      ]
+    }
+  ],
+  "detection_count": 28,
+  "class_counts": {
+    "airplane": 0,
+    "airport": 0,
+    "storage_tank": 28
+  },
+  "average_confidence": 0.741,
+  "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530135906\\raw\\sector_D2.jpg",
+  "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530135906\\predictions\\sector_D2_pred.jpg",
+  "raw_image_url": "/captures/missions/mission_20260530135906/raw/sector_D2.jpg",
+  "prediction_image_url": "/captures/missions/mission_20260530135906/predictions/sector_D2_pred.jpg",
+  "overlap_percent": 20,
+  "scan_area_width_km": 1.5,
+  "scan_area_height_km": 1.5,
+  "grid_rows": 4,
+  "grid_columns": 4,
+  "scan_quality": "detection",
+  "capture_format": "jpg"
+}

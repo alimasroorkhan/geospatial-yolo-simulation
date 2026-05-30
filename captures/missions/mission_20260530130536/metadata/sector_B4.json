@@ -1,0 +1,106 @@
+{
+  "mission_id": "mission_20260530130536",
+  "sector_id": "B4",
+  "target_name": "Nur Khan Base",
+  "mission_type": "Reconnaissance Patrol",
+  "timestamp": "2026-05-30T18:05:43",
+  "centre_lat": 33.61098388896875,
+  "centre_lng": 73.10571186286862,
+  "north": 33.61233135573123,
+  "south": 33.609636422206265,
+  "east": 73.10706015049148,
+  "west": 73.10409391772117,
+  "altitude": 500.0,
+  "heading": 180.0,
+  "capture_tile_zoom": 18,
+  "width": 1280,
+  "height": 900,
+  "image_format": "jpg",
+  "jpeg_quality": 0.98,
+  "detections": [
+    {
+      "class_name": "airplane",
+      "confidence": 0.9008,
+      "polygon": [
+        [
+          237.09,
+          605.82
+        ],
+        [
+          293.15,
+          499.84
+        ],
+        [
+          170.65,
+          435.05
+        ],
+        [
+          114.59,
+          541.03
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8511,
+      "polygon": [
+        [
+          429.33,
+          386.62
+        ],
+        [
+          392.87,
+          321.83
+        ],
+        [
+          295.45,
+          376.66
+        ],
+        [
+          331.92,
+          441.45
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8262,
+      "polygon": [
+        [
+          693.55,
+          150.98
+        ],
+        [
+          751.43,
+          109.06
+        ],
+        [
+          716.9,
+          61.38
+        ],
+        [
+          659.02,
+          103.29
+        ]
+      ]
+    }
+  ],
+  "detection_count": 3,
+  "class_counts": {
+    "airplane": 3,
+    "airport": 0,
+    "storage_tank": 0
+  },
+  "average_confidence": 0.8594,
+  "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530130536\\raw\\sector_B4.jpg",
+  "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530130536\\predictions\\sector_B4_pred.jpg",
+  "raw_image_url": "/captures/missions/mission_20260530130536/raw/sector_B4.jpg",
+  "prediction_image_url": "/captures/missions/mission_20260530130536/predictions/sector_B4_pred.jpg",
+  "overlap_percent": 20,
+  "scan_area_width_km": 1,
+  "scan_area_height_km": 1,
+  "grid_rows": 4,
+  "grid_columns": 4,
+  "scan_quality": "detection",
+  "capture_format": "jpg"
+}

@@ -1,0 +1,62 @@
+/* HUD typography and status treatments */
+:root {
+  --bg: #020713;
+  --panel: rgba(2, 11, 28, 0.9);
+  --panel-strong: rgba(1, 18, 33, 0.96);
+  --line: #70ffd6;
+  --line-soft: rgba(112, 255, 214, 0.38);
+  --text: #d1fff0;
+  --muted: #9be6d5;
+  --warning: #f4d35e;
+  --danger: #ff5c8a;
+}
+
+body {
+  background:
+    linear-gradient(180deg, rgba(13, 32, 64, 0.40), rgba(0, 6, 14, 0.20) 35%),
+    #020713;
+}
+
+body,
+button,
+input,
+select {
+  font-family: Consolas, "Courier New", monospace;
+}
+
+.server-pill {
+  background: rgba(0, 38, 34, 0.55);
+  color: var(--line);
+  text-transform: uppercase;
+}
+
+.topbar,
+.bottombar {
+  box-shadow: inset 0 0 0 1px rgba(112,255,214,0.05);
+}
+
+.mission-sector-chip.pending {
+  border-color: rgba(255,92,138,0.42);
+  color: var(--muted);
+}
+
+.mission-sector-chip.scanning {
+  background: rgba(88, 68, 8, 0.46);
+}
+
+.mission-sector-chip.complete {
+  background: rgba(0, 48, 38, 0.5);
+}
+
+.mission-sector-chip.detection-positive {
+  background: rgba(85, 16, 38, 0.58);
+}
+
+.bottombar {
+  background: rgba(1, 11, 24, 0.88);
+}
+
+.camera-label,
+.map-loading {
+  text-transform: uppercase;
+}

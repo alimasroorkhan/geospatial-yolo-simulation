@@ -1,0 +1,2 @@
+mission_id,sector_id,status,centre_lat,centre_lng,north,south,east,west,aircraft_count,airport_count,storage_tank_count,total_detections,average_confidence,prediction_url
+mission_20260530140113,A2,Complete,33.56320393471875,72.82881555309126,33.564888268171856,33.56118273457502,72.83124101688419,72.82639008929833,0,0,0,0,0,/captures/missions/mission_20260530140113/predictions/sector_A2_pred.jpg

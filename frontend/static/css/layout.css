@@ -1,0 +1,211 @@
+/* Mission console layout */
+#app {
+  grid-template-rows: 80px minmax(0, 1fr) 32px;
+  gap: 12px;
+  padding: 11px;
+}
+
+.topbar {
+  gap: 12px;
+  padding: 9px 16px;
+  min-height: 80px;
+}
+
+.topbar > div:first-child {
+  min-width: 392px;
+}
+
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.45em;
+}
+
+h1 {
+  font-size: 18px;
+  line-height: 1.45;
+  letter-spacing: 0.24em;
+}
+
+.top-tabs {
+  grid-template-columns: repeat(5, minmax(118px, 1fr));
+  gap: 8px;
+  width: min(654px, 51.5vw);
+}
+
+.nav-tab {
+  min-height: 36px;
+  padding: 8px 9px;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+}
+
+.server-pill {
+  min-width: 155px;
+  padding: 13px 16px;
+  font-size: 14px;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.mission-layout,
+.capture-layout {
+  grid-template-columns: minmax(0, 1fr) 402px;
+  gap: 12px;
+}
+
+.mission-layout {
+  height: 100%;
+  overflow: hidden;
+}
+
+.app-shell,
+.workspace,
+.workspace-section.active,
+.workspace-section.active > div {
+  min-height: 0;
+  height: 100%;
+}
+
+.app-shell {
+  overflow: hidden;
+}
+
+.workspace-section.active {
+  overflow: hidden;
+}
+
+body.section-missionSection #missionSection {
+  display: block !important;
+}
+
+body.section-missionSection #missionSection .mission-layout {
+  display: grid !important;
+}
+
+body.section-missionSection .app-shell {
+  display: block;
+}
+
+body.section-missionSection .workspace {
+  display: block;
+}
+
+#missionSection.active,
+#missionSection.active .mission-layout,
+#missionSection.active .shared-map-mount,
+#missionSection.active .mission-panel {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+#missionSection.active .mission-panel {
+  display: block !important;
+}
+
+body.section-missionSection #missionSection {
+  position: fixed;
+  left: 11px;
+  right: 11px;
+  top: 103px;
+  bottom: 44px;
+  height: calc(100vh - 147px);
+  z-index: 5;
+  background: transparent;
+  overflow: hidden;
+}
+
+body.section-missionSection #missionSection .mission-layout {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 402px;
+  gap: 12px;
+  overflow: hidden;
+}
+
+body.section-missionSection .bottombar,
+body.section-missionSection .topbar {
+  position: relative;
+  z-index: 10;
+}
+
+.mission-panel,
+.operation-panel {
+  max-height: 100%;
+}
+
+body.section-missionSection #cameraDeck,
+body.section-missionSection #cameraMap,
+body.section-missionSection #missionCameraMount,
+body.section-missionSection .mission-camera-mount {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+body.section-missionSection .mission-panel {
+  max-height: 100%;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body.section-missionSection #missionMapMount,
+body.section-missionSection #sharedMapDeck,
+body.section-missionSection #mainMap {
+  min-height: 0;
+  height: 100%;
+}
+
+.bottombar {
+  min-height: 32px;
+  padding: 0 16px;
+  font-size: 10px;
+}
+
+@media (max-width: 1350px) {
+  #app {
+    grid-template-rows: 92px minmax(0, 1fr) 32px;
+  }
+
+  .topbar > div:first-child {
+    min-width: 390px;
+  }
+
+  .top-tabs {
+    grid-template-columns: repeat(5, minmax(104px, 1fr));
+    width: min(654px, 51vw);
+  }
+
+  .nav-tab {
+    font-size: 9px;
+  }
+
+  .mission-layout,
+  .capture-layout {
+    grid-template-columns: minmax(0, 1fr) 402px;
+  }
+}
+
+@media (max-width: 1050px) {
+  #app {
+    grid-template-rows: auto minmax(0, 1fr) auto;
+  }
+
+  .topbar > div:first-child,
+  .top-tabs,
+  .server-pill {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .top-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body.section-missionSection #missionSection {
+    position: static;
+    height: auto;
+    overflow: visible;
+  }
+}

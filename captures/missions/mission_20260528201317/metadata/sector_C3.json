@@ -1,0 +1,473 @@
+{
+  "mission_id": "mission_20260528201317",
+  "sector_id": "C3",
+  "target_name": "Custom Coordinates",
+  "mission_type": "Reconnaissance Patrol",
+  "timestamp": "2026-05-29T01:17:01",
+  "centre_lat": 33.55230403419148,
+  "centre_lng": 73.0767182216044,
+  "north": 33.554549812128954,
+  "south": 33.550058256254,
+  "east": 73.07941306902538,
+  "west": 73.07402337418341,
+  "altitude": 500.0,
+  "heading": 90.0,
+  "capture_tile_zoom": 18,
+  "width": 900,
+  "height": 620,
+  "image_format": "jpg",
+  "jpeg_quality": 0.98,
+  "detections": [
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.9034,
+      "polygon": [
+        [
+          110.17,
+          357.88
+        ],
+        [
+          110.15,
+          322.14
+        ],
+        [
+          60.39,
+          322.17
+        ],
+        [
+          60.41,
+          357.91
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8817,
+      "polygon": [
+        [
+          124.94,
+          310.94
+        ],
+        [
+          125.0,
+          276.26
+        ],
+        [
+          73.2,
+          276.18
+        ],
+        [
+          73.14,
+          310.86
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8629,
+      "polygon": [
+        [
+          159.96,
+          399.37
+        ],
+        [
+          159.87,
+          365.05
+        ],
+        [
+          111.74,
+          365.18
+        ],
+        [
+          111.84,
+          399.51
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.8511,
+      "polygon": [
+        [
+          207.83,
+          293.1
+        ],
+        [
+          207.59,
+          267.32
+        ],
+        [
+          170.99,
+          267.65
+        ],
+        [
+          171.23,
+          293.43
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.815,
+      "polygon": [
+        [
+          198.35,
+          210.75
+        ],
+        [
+          197.78,
+          176.52
+        ],
+        [
+          153.48,
+          177.26
+        ],
+        [
+          154.05,
+          211.49
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.7258,
+      "polygon": [
+        [
+          128.17,
+          490.88
+        ],
+        [
+          127.62,
+          450.2
+        ],
+        [
+          66.08,
+          451.04
+        ],
+        [
+          66.63,
+          491.71
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.7085,
+      "polygon": [
+        [
+          67.35,
+          210.39
+        ],
+        [
+          67.46,
+          151.98
+        ],
+        [
+          0.89,
+          151.86
+        ],
+        [
+          0.79,
+          210.27
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.7034,
+      "polygon": [
+        [
+          194.82,
+          348.15
+        ],
+        [
+          194.51,
+          320.4
+        ],
+        [
+          155.88,
+          320.83
+        ],
+        [
+          156.19,
+          348.58
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.6588,
+      "polygon": [
+        [
+          35.41,
+          288.91
+        ],
+        [
+          36.78,
+          244.09
+        ],
+        [
+          1.27,
+          243.01
+        ],
+        [
+          -0.1,
+          287.83
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.6531,
+      "polygon": [
+        [
+          248.46,
+          176.25
+        ],
+        [
+          248.18,
+          152.88
+        ],
+        [
+          214.09,
+          153.28
+        ],
+        [
+          214.36,
+          176.65
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.6067,
+      "polygon": [
+        [
+          45.74,
+          428.96
+        ],
+        [
+          45.32,
+          401.15
+        ],
+        [
+          9.54,
+          401.69
+        ],
+        [
+          9.96,
+          429.5
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.5809,
+      "polygon": [
+        [
+          226.17,
+          550.14
+        ],
+        [
+          226.08,
+          515.22
+        ],
+        [
+          176.16,
+          515.34
+        ],
+        [
+          176.25,
+          550.27
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.5152,
+      "polygon": [
+        [
+          292.2,
+          595.92
+        ],
+        [
+          292.07,
+          570.79
+        ],
+        [
+          256.38,
+          570.98
+        ],
+        [
+          256.52,
+          596.11
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.4999,
+      "polygon": [
+        [
+          105.06,
+          617.77
+        ],
+        [
+          104.77,
+          587.91
+        ],
+        [
+          61.32,
+          588.34
+        ],
+        [
+          61.62,
+          618.2
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.4998,
+      "polygon": [
+        [
+          366.26,
+          166.43
+        ],
+        [
+          366.02,
+          144.18
+        ],
+        [
+          331.08,
+          144.55
+        ],
+        [
+          331.31,
+          166.8
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.4245,
+      "polygon": [
+        [
+          154.69,
+          237.07
+        ],
+        [
+          154.44,
+          212.74
+        ],
+        [
+          120.29,
+          213.09
+        ],
+        [
+          120.54,
+          237.42
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.3935,
+      "polygon": [
+        [
+          355.15,
+          589.91
+        ],
+        [
+          355.11,
+          569.84
+        ],
+        [
+          328.68,
+          569.89
+        ],
+        [
+          328.71,
+          589.96
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.368,
+      "polygon": [
+        [
+          406.72,
+          172.56
+        ],
+        [
+          406.93,
+          159.98
+        ],
+        [
+          391.67,
+          159.72
+        ],
+        [
+          391.46,
+          172.31
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.3264,
+      "polygon": [
+        [
+          414.7,
+          151.0
+        ],
+        [
+          415.17,
+          138.27
+        ],
+        [
+          402.03,
+          137.79
+        ],
+        [
+          401.57,
+          150.52
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.2565,
+      "polygon": [
+        [
+          421.33,
+          140.78
+        ],
+        [
+          421.91,
+          127.81
+        ],
+        [
+          406.31,
+          127.1
+        ],
+        [
+          405.72,
+          140.08
+        ]
+      ]
+    }
+  ],
+  "detection_count": 20,
+  "class_counts": {
+    "airplane": 0,
+    "airport": 0,
+    "storage_tank": 20
+  },
+  "average_confidence": 0.6118,
+  "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260528201317\\raw\\sector_C3.jpg",
+  "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260528201317\\predictions\\sector_C3_pred.jpg",
+  "raw_image_url": "/captures/missions/mission_20260528201317/raw/sector_C3.jpg",
+  "prediction_image_url": "/captures/missions/mission_20260528201317/predictions/sector_C3_pred.jpg"
+}

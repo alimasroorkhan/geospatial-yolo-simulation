@@ -1,0 +1,32 @@
+{
+  "mission_id": "mission_20260528141144",
+  "sector_id": "C2",
+  "target_name": "Nur Khan Base",
+  "mission_type": "Reconnaissance Patrol",
+  "timestamp": "2026-05-28T19:14:01",
+  "centre_lat": 33.60387225883339,
+  "centre_lng": 73.10166700000002,
+  "north": 33.6068666294167,
+  "south": 33.60087788825009,
+  "east": 73.105262433661,
+  "west": 73.09807156633903,
+  "altitude": 500.0,
+  "heading": 90.0,
+  "capture_tile_zoom": 18,
+  "width": 900,
+  "height": 620,
+  "image_format": "jpg",
+  "jpeg_quality": 0.98,
+  "detections": [],
+  "detection_count": 0,
+  "class_counts": {
+    "airplane": 0,
+    "airport": 0,
+    "storage_tank": 0
+  },
+  "average_confidence": 0,
+  "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260528141144\\raw\\sector_C2.jpg",
+  "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260528141144\\predictions\\sector_C2_pred.jpg",
+  "raw_image_url": "/captures/missions/mission_20260528141144/raw/sector_C2.jpg",
+  "prediction_image_url": "/captures/missions/mission_20260528141144/predictions/sector_C2_pred.jpg"
+}

@@ -1,0 +1,121 @@
+{
+  "mission_id": "mission_20260528201317",
+  "sector_id": "D3",
+  "target_name": "Custom Coordinates",
+  "mission_type": "Reconnaissance Patrol",
+  "timestamp": "2026-05-29T01:18:01",
+  "centre_lat": 33.547812478316516,
+  "centre_lng": 73.0767182216044,
+  "north": 33.550058256254,
+  "south": 33.54556670037904,
+  "east": 73.07941306902538,
+  "west": 73.07402337418341,
+  "altitude": 500.0,
+  "heading": 270.0,
+  "capture_tile_zoom": 18,
+  "width": 900,
+  "height": 620,
+  "image_format": "jpg",
+  "jpeg_quality": 0.98,
+  "detections": [
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.7587,
+      "polygon": [
+        [
+          358.02,
+          90.02
+        ],
+        [
+          357.0,
+          54.85
+        ],
+        [
+          307.89,
+          56.28
+        ],
+        [
+          308.91,
+          91.45
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.6195,
+      "polygon": [
+        [
+          184.78,
+          51.68
+        ],
+        [
+          184.59,
+          22.34
+        ],
+        [
+          143.17,
+          22.61
+        ],
+        [
+          143.36,
+          51.95
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.4559,
+      "polygon": [
+        [
+          84.7,
+          79.61
+        ],
+        [
+          84.88,
+          51.74
+        ],
+        [
+          38.11,
+          51.44
+        ],
+        [
+          37.93,
+          79.32
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.2756,
+      "polygon": [
+        [
+          278.19,
+          36.03
+        ],
+        [
+          278.1,
+          15.09
+        ],
+        [
+          251.69,
+          15.21
+        ],
+        [
+          251.78,
+          36.14
+        ]
+      ]
+    }
+  ],
+  "detection_count": 4,
+  "class_counts": {
+    "airplane": 0,
+    "airport": 0,
+    "storage_tank": 4
+  },
+  "average_confidence": 0.5274,
+  "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260528201317\\raw\\sector_D3.jpg",
+  "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260528201317\\predictions\\sector_D3_pred.jpg",
+  "raw_image_url": "/captures/missions/mission_20260528201317/raw/sector_D3.jpg",
+  "prediction_image_url": "/captures/missions/mission_20260528201317/predictions/sector_D3_pred.jpg"
+}

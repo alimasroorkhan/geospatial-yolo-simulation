@@ -1,0 +1,59 @@
+{
+  "mission_id": "mission_integrated_smoke",
+  "target_name": "Islamabad International Airport",
+  "mission_type": "Reconnaissance Patrol",
+  "scan_area_width_km": 1,
+  "scan_area_height_km": 1,
+  "grid_rows": 2,
+  "grid_columns": 2,
+  "overlap_percent": 20,
+  "scan_quality": "fast",
+  "capture_format": "jpg",
+  "summary": {
+    "total_detections": 0,
+    "airplane_count": 0,
+    "airport_count": 0,
+    "storage_tank_count": 0
+  },
+  "sectors": [
+    {
+      "mission_id": "mission_integrated_smoke",
+      "sector_id": "A1",
+      "target_name": "Islamabad International Airport",
+      "mission_type": "Reconnaissance Patrol",
+      "timestamp": "2026-05-29T02:08:40",
+      "centre_lat": 33.55425,
+      "centre_lng": 72.830417,
+      "north": 33.555,
+      "south": 33.5535,
+      "east": 72.8312,
+      "west": 72.8296,
+      "altitude": 500.0,
+      "heading": 0.0,
+      "capture_tile_zoom": 18,
+      "width": 320,
+      "height": 320,
+      "image_format": "jpg",
+      "jpeg_quality": 0.9,
+      "detections": [],
+      "detection_count": 0,
+      "class_counts": {
+        "airplane": 0,
+        "airport": 0,
+        "storage_tank": 0
+      },
+      "average_confidence": 0,
+      "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_integrated_smoke\\raw\\sector_A1.jpg",
+      "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_integrated_smoke\\predictions\\sector_A1_pred.jpg",
+      "raw_image_url": "/captures/missions/mission_integrated_smoke/raw/sector_A1.jpg",
+      "prediction_image_url": "/captures/missions/mission_integrated_smoke/predictions/sector_A1_pred.jpg",
+      "overlap_percent": 20,
+      "scan_area_width_km": 1,
+      "scan_area_height_km": 1,
+      "grid_rows": 2,
+      "grid_columns": 2,
+      "scan_quality": "fast",
+      "capture_format": "jpg"
+    }
+  ]
+}

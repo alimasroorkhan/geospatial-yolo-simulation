@@ -1,0 +1,385 @@
+{
+  "mission_id": "mission_20260528141144",
+  "sector_id": "B2",
+  "target_name": "Nur Khan Base",
+  "mission_type": "Reconnaissance Patrol",
+  "timestamp": "2026-05-28T19:13:00",
+  "centre_lat": 33.609860999999995,
+  "centre_lng": 73.10166700000002,
+  "north": 33.612855370583304,
+  "south": 33.60686662941669,
+  "east": 73.105262433661,
+  "west": 73.09807156633903,
+  "altitude": 500.0,
+  "heading": 270.0,
+  "capture_tile_zoom": 18,
+  "width": 900,
+  "height": 620,
+  "image_format": "jpg",
+  "jpeg_quality": 0.98,
+  "detections": [
+    {
+      "class_name": "airplane",
+      "confidence": 0.9201,
+      "polygon": [
+        [
+          823.85,
+          239.77
+        ],
+        [
+          839.95,
+          207.09
+        ],
+        [
+          802.27,
+          188.53
+        ],
+        [
+          786.18,
+          221.21
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.9178,
+      "polygon": [
+        [
+          275.22,
+          353.12
+        ],
+        [
+          302.32,
+          326.96
+        ],
+        [
+          268.9,
+          292.33
+        ],
+        [
+          241.79,
+          318.49
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.907,
+      "polygon": [
+        [
+          367.15,
+          227.36
+        ],
+        [
+          365.23,
+          187.74
+        ],
+        [
+          322.27,
+          189.83
+        ],
+        [
+          324.19,
+          229.45
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.9031,
+      "polygon": [
+        [
+          733.17,
+          308.09
+        ],
+        [
+          763.82,
+          260.66
+        ],
+        [
+          714.9,
+          229.04
+        ],
+        [
+          684.25,
+          276.48
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8988,
+      "polygon": [
+        [
+          124.38,
+          232.04
+        ],
+        [
+          151.64,
+          205.88
+        ],
+        [
+          121.54,
+          174.51
+        ],
+        [
+          94.27,
+          200.68
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8961,
+      "polygon": [
+        [
+          174.85,
+          270.61
+        ],
+        [
+          201.15,
+          247.09
+        ],
+        [
+          170.85,
+          213.22
+        ],
+        [
+          144.56,
+          236.74
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8926,
+      "polygon": [
+        [
+          228.77,
+          314.89
+        ],
+        [
+          254.98,
+          290.65
+        ],
+        [
+          225.79,
+          259.1
+        ],
+        [
+          199.59,
+          283.34
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8863,
+      "polygon": [
+        [
+          592.2,
+          398.56
+        ],
+        [
+          614.5,
+          351.27
+        ],
+        [
+          564.6,
+          327.74
+        ],
+        [
+          542.3,
+          375.03
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8862,
+      "polygon": [
+        [
+          474.32,
+          459.26
+        ],
+        [
+          498.41,
+          440.85
+        ],
+        [
+          479.84,
+          416.55
+        ],
+        [
+          455.75,
+          434.96
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8801,
+      "polygon": [
+        [
+          656.19,
+          352.45
+        ],
+        [
+          685.09,
+          305.23
+        ],
+        [
+          638.21,
+          276.53
+        ],
+        [
+          609.3,
+          323.76
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8611,
+      "polygon": [
+        [
+          402.67,
+          510.27
+        ],
+        [
+          427.6,
+          490.88
+        ],
+        [
+          411.04,
+          469.59
+        ],
+        [
+          386.11,
+          488.97
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8438,
+      "polygon": [
+        [
+          356.54,
+          455.88
+        ],
+        [
+          383.01,
+          437.26
+        ],
+        [
+          367.67,
+          415.45
+        ],
+        [
+          341.2,
+          434.06
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8344,
+      "polygon": [
+        [
+          851.68,
+          192.87
+        ],
+        [
+          878.29,
+          175.97
+        ],
+        [
+          863.11,
+          152.07
+        ],
+        [
+          836.5,
+          168.97
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8057,
+      "polygon": [
+        [
+          369.46,
+          119.47
+        ],
+        [
+          368.34,
+          100.06
+        ],
+        [
+          347.05,
+          101.29
+        ],
+        [
+          348.17,
+          120.69
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.7443,
+      "polygon": [
+        [
+          1.06,
+          70.91
+        ],
+        [
+          28.82,
+          63.61
+        ],
+        [
+          20.14,
+          30.62
+        ],
+        [
+          -7.62,
+          37.92
+        ]
+      ]
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.6409,
+      "polygon": [
+        [
+          372.55,
+          146.3
+        ],
+        [
+          371.33,
+          127.92
+        ],
+        [
+          350.58,
+          129.29
+        ],
+        [
+          351.8,
+          147.67
+        ]
+      ]
+    }
+  ],
+  "detection_count": 16,
+  "class_counts": {
+    "airplane": 16,
+    "airport": 0,
+    "storage_tank": 0
+  },
+  "average_confidence": 0.8574,
+  "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260528141144\\raw\\sector_B2.jpg",
+  "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260528141144\\predictions\\sector_B2_pred.jpg",
+  "raw_image_url": "/captures/missions/mission_20260528141144/raw/sector_B2.jpg",
+  "prediction_image_url": "/captures/missions/mission_20260528141144/predictions/sector_B2_pred.jpg"
+}

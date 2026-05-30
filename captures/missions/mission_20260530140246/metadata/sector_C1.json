@@ -1,0 +1,62 @@
+{
+  "mission_id": "mission_20260530140246",
+  "sector_id": "C1",
+  "target_name": "Custom Coordinates",
+  "mission_type": "Reconnaissance Patrol",
+  "timestamp": "2026-05-30T19:03:00",
+  "centre_lat": 33.554846439130344,
+  "centre_lng": 72.82929425416295,
+  "north": 33.55619390589283,
+  "south": 33.55349897236786,
+  "east": 72.830911189186,
+  "west": 72.8279468083104,
+  "altitude": 500.0,
+  "heading": 180.0,
+  "capture_tile_zoom": 18,
+  "width": 1280,
+  "height": 900,
+  "image_format": "jpg",
+  "jpeg_quality": 0.98,
+  "detections": [
+    {
+      "class_name": "airplane",
+      "confidence": 0.902,
+      "polygon": [
+        [
+          171.81,
+          854.28
+        ],
+        [
+          276.7,
+          757.22
+        ],
+        [
+          183.2,
+          656.19
+        ],
+        [
+          78.32,
+          753.24
+        ]
+      ]
+    }
+  ],
+  "detection_count": 1,
+  "class_counts": {
+    "airplane": 1,
+    "airport": 0,
+    "storage_tank": 0
+  },
+  "average_confidence": 0.902,
+  "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530140246\\raw\\sector_C1.jpg",
+  "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530140246\\predictions\\sector_C1_pred.jpg",
+  "raw_image_url": "/captures/missions/mission_20260530140246/raw/sector_C1.jpg",
+  "prediction_image_url": "/captures/missions/mission_20260530140246/predictions/sector_C1_pred.jpg",
+  "overlap_percent": 20,
+  "scan_area_width_km": 1,
+  "scan_area_height_km": 1,
+  "grid_rows": 4,
+  "grid_columns": 4,
+  "scan_quality": "detection",
+  "capture_format": "jpg"
+}

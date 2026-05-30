@@ -1,0 +1,32 @@
+{
+  "mission_id": "mission_20260528201317",
+  "sector_id": "B4",
+  "target_name": "Custom Coordinates",
+  "mission_type": "Reconnaissance Patrol",
+  "timestamp": "2026-05-29T01:15:12",
+  "centre_lat": 33.55679559006643,
+  "centre_lng": 73.08210791644636,
+  "north": 33.55904136800391,
+  "south": 33.554549812128954,
+  "east": 73.08480276386734,
+  "west": 73.07941306902538,
+  "altitude": 500.0,
+  "heading": 180.0,
+  "capture_tile_zoom": 18,
+  "width": 900,
+  "height": 620,
+  "image_format": "jpg",
+  "jpeg_quality": 0.98,
+  "detections": [],
+  "detection_count": 0,
+  "class_counts": {
+    "airplane": 0,
+    "airport": 0,
+    "storage_tank": 0
+  },
+  "average_confidence": 0,
+  "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260528201317\\raw\\sector_B4.jpg",
+  "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260528201317\\predictions\\sector_B4_pred.jpg",
+  "raw_image_url": "/captures/missions/mission_20260528201317/raw/sector_B4.jpg",
+  "prediction_image_url": "/captures/missions/mission_20260528201317/predictions/sector_B4_pred.jpg"
+}

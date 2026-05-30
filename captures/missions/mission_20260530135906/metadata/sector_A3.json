@@ -1,0 +1,106 @@
+{
+  "mission_id": "mission_20260530135906",
+  "sector_id": "A3",
+  "target_name": "Custom Coordinates",
+  "mission_type": "Reconnaissance Patrol",
+  "timestamp": "2026-05-30T18:59:09",
+  "centre_lat": 33.56018179364139,
+  "centre_lng": 73.07760413022177,
+  "north": 33.5618661270945,
+  "south": 33.558160593497654,
+  "east": 73.08002950915636,
+  "west": 73.0751787512872,
+  "altitude": 500.0,
+  "heading": 90.0,
+  "capture_tile_zoom": 18,
+  "width": 1280,
+  "height": 900,
+  "image_format": "jpg",
+  "jpeg_quality": 0.98,
+  "detections": [
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.5676,
+      "polygon": [
+        [
+          95.77,
+          566.79
+        ],
+        [
+          95.83,
+          491.39
+        ],
+        [
+          1.03,
+          491.32
+        ],
+        [
+          0.97,
+          566.72
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.518,
+      "polygon": [
+        [
+          288.5,
+          501.71
+        ],
+        [
+          287.43,
+          397.84
+        ],
+        [
+          151.24,
+          399.24
+        ],
+        [
+          152.31,
+          503.11
+        ]
+      ]
+    },
+    {
+      "class_name": "storage_tank",
+      "confidence": 0.4475,
+      "polygon": [
+        [
+          94.92,
+          825.61
+        ],
+        [
+          96.26,
+          740.56
+        ],
+        [
+          3.8,
+          739.1
+        ],
+        [
+          2.46,
+          824.15
+        ]
+      ]
+    }
+  ],
+  "detection_count": 3,
+  "class_counts": {
+    "airplane": 0,
+    "airport": 0,
+    "storage_tank": 3
+  },
+  "average_confidence": 0.511,
+  "raw_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530135906\\raw\\sector_A3.jpg",
+  "prediction_image_path": "C:\\Users\\dell\\OneDrive\\Desktop\\cesiumdrone\\leaflet_satellite_drone_yolo_integrated\\captures\\missions\\mission_20260530135906\\predictions\\sector_A3_pred.jpg",
+  "raw_image_url": "/captures/missions/mission_20260530135906/raw/sector_A3.jpg",
+  "prediction_image_url": "/captures/missions/mission_20260530135906/predictions/sector_A3_pred.jpg",
+  "overlap_percent": 20,
+  "scan_area_width_km": 1.5,
+  "scan_area_height_km": 1.5,
+  "grid_rows": 4,
+  "grid_columns": 4,
+  "scan_quality": "detection",
+  "capture_format": "jpg"
+}

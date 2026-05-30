@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UAV Satellite Recon Terminal</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="/static/css/styles.css?v=mission-layout-cleanup-3" />
+  <link rel="stylesheet" href="/static/css/layout.css?v=mission-layout-cleanup-3" />
+  <link rel="stylesheet" href="/static/css/panels.css?v=mission-layout-cleanup-3" />
+  <link rel="stylesheet" href="/static/css/map.css?v=mission-layout-cleanup-3" />
+  <link rel="stylesheet" href="/static/css/hud.css?v=mission-layout-cleanup-3" />
+</head>
+<body class="section-missionSection">
+  <div id="app">
+    <header class="topbar tactical-panel">
+      <div>
+        <div class="eyebrow">DRONE OPS TERMINAL</div>
+        <h1>UAV SATELLITE RECON SIMULATOR</h1>
+      </div>
+      <nav id="headerMenu" class="top-tabs" aria-label="Primary sections">
+        <button class="nav-tab" data-section="aboutSection" type="button">ABOUT</button>
+        <button class="nav-tab" data-section="controlsSection" type="button">CONTROLS</button>
+        <button class="nav-tab" data-section="captureSection" type="button">CAPTURE MODE</button>
+        <button class="nav-tab active" data-section="missionSection" type="button">MISSION SCAN</button>
+        <button class="nav-tab" data-section="liveSection" type="button">LIVE PREVIEW MODE</button>
+      </nav>
+      <div class="server-pill" id="serverStatus">SERVER CHECKING</div>
+    </header>
+
+    <main class="app-shell">
+      <section class="workspace">
+        <section id="aboutSection" class="workspace-section">
+          <div class="info-grid about-grid">
+            <article class="tactical-panel info-panel">
+              <h2>PROJECT OVERVIEW</h2>
+              <p>AI-based satellite imagery detection system for identifying aircraft, airport areas, and storage tanks using a YOLO OBB model.</p>
+            </article>
+            <article class="tactical-panel info-panel">
+              <h2>DATASET AND MODEL</h2>
+              <p>The detector uses YOLOv8 OBB with Oriented Bounding Boxes because satellite objects can appear rotated in aerial views.</p>
+              <div class="class-list">
+                <span>airplane</span>
+                <span>airport</span>
+                <span>storage_tank</span>
+              </div>
+            </article>
+            <article class="tactical-panel info-panel model-performance-panel">
+              <h2>MODEL PERFORMANCE</h2>
+              <div class="metric-grid">
+                <div class="metric-card">
+                  <span>Precision</span>
+                  <strong>87.0%</strong>
+                </div>
+                <div class="metric-card">
+                  <span>Recall</span>
+                  <strong>87.1%</strong>
+                </div>
+                <div class="metric-card highlight">
+                  <span>mAP50</span>
+                  <strong>90.3%</strong>
+                </div>
+                <div class="metric-card">
+                  <span>mAP50-95</span>
+                  <strong>68.3%</strong>
+                </div>
+              </div>
+              <div class="performance-table-wrap">
+                <table class="performance-table">
+                  <thead>
+                    <tr>
+                      <th>Class</th>
+                      <th>Precision</th>
+                      <th>Recall</th>
+                      <th>mAP50</th>
+                      <th>mAP50-95</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Airplane</td>
+                      <td>97.5%</td>
+                      <td>96.8%</td>
+                      <td>98.2%</td>
+                      <td>87.7%</td>
+                    </tr>
+                    <tr>
+                      <td>Airport</td>
+                      <td>71.5%</td>
+                      <td>70.9%</td>
+                      <td>76.5%</td>
+                      <td>38.1%</td>
+                    </tr>
+                    <tr>
+                      <td>Storage Tank</td>
+                      <td>92.2%</td>
+                      <td>93.6%</td>
+                      <td>96.2%</td>
+                      <td>79.3%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>Since this is an object detection system, the model was evaluated using precision, recall, mAP50 and mAP50-95 rather than simple classification accuracy. The model performed strongest on airplane and storage tank detection, while airport detection was weaker due to fewer examples and the larger, more complex nature of airport regions.</p>
+            </article>
+            <article class="tactical-panel info-panel">
+              <h2>APPLICATION PURPOSE</h2>
+              <p>The interface connects simulated UAV movement, satellite tile capture, and live YOLO OBB inference so detections can be reviewed directly from the drone camera workflow.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="controlsSection" class="workspace-section">
+          <div class="controls-manual tactical-panel">
+            <h2>KEYBOARD CONTROLS</h2>
+            <div class="controls-grid guide-grid">
+              <div><kbd>W</kbd> Forward</div>
+              <div><kbd>S</kbd> Backward</div>
+              <div><kbd>A</kbd> Strafe left</div>
+              <div><kbd>D</kbd> Strafe right</div>
+              <div><kbd>Q</kbd> Yaw left</div>
+              <div><kbd>E</kbd> Yaw right</div>
+              <div><kbd>R</kbd> Altitude up</div>
+              <div><kbd>F</kbd> Altitude down</div>
+              <div><kbd>SHIFT</kbd> Boost</div>
+              <div><kbd>SPACE</kbd> Capture</div>
+            </div>
+            <h2>INTERFACE CONTROLS</h2>
+            <div class="instruction-list">
+              <p><strong>FOLLOW DRONE ON/OFF</strong> toggles smooth map following.</p>
+              <p><strong>RECENTER ISB</strong> returns the map view to Islamabad International Airport.</p>
+              <p><strong>ALT + / ALT -</strong> changes the same drone altitude used by capture and live detection scale.</p>
+              <p><strong>Map + / -</strong> uses Leaflet zoom controls without recreating the map.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="captureSection" class="workspace-section">
+          <div class="capture-layout">
+            <div id="captureMapMount" class="shared-map-mount"></div>
+
+            <aside class="operation-panel tactical-panel">
+              <div class="capture-panel capture-result-card">
+                <h2>CAPTURE STATUS</h2>
+                <div id="captureCameraMount" class="capture-camera-mount"></div>
+                <div class="capture-quality-row">
+                  <label for="captureQuality">Capture Quality</label>
+                  <select id="captureQuality">
+                    <option value="standard-jpg">Standard JPG</option>
+                    <option value="high-jpg" selected>High Quality JPG</option>
+                    <option value="png-lossless">PNG Lossless</option>
+                  </select>
+                </div>
+                <p id="captureQualityStatus">Effective zoom: -- | Capture size: 1280 x 1280 | Format: High Quality JPG</p>
+                <button id="captureBtn" class="primary">CAPTURE JPG</button>
+                <p id="captureStatus">No image captured yet.</p>
+                <a id="captureLink" href="#" target="_blank" hidden>Open latest JPG</a>
+                <img id="latestCapture" alt="Latest captured prediction preview" hidden />
+              </div>
+
+              <h2>DRONE STATUS</h2>
+              <div class="telemetry-grid compact">
+                <div class="telemetry-card"><span>LAT</span><strong id="latVal">--</strong></div>
+                <div class="telemetry-card"><span>LON</span><strong id="lonVal">--</strong></div>
+                <div class="telemetry-card"><span>ALT</span><strong id="altVal">--</strong></div>
+                <div class="telemetry-card"><span>HDG</span><strong id="hdgVal">--</strong></div>
+                <div class="telemetry-card"><span>SPD</span><strong id="spdVal">--</strong></div>
+                <div class="telemetry-card"><span>MODE</span><strong id="modeVal">HOLD</strong></div>
+              </div>
+
+              <div class="button-grid">
+                <button id="resetBtn">RESET PATH</button>
+                <button id="holdBtn">HOLD ON</button>
+                <button id="followBtn">FOLLOW DRONE: ON</button>
+                <button id="recenterBtn">RECENTER ISB</button>
+              </div>
+
+              <div class="altitude-control">
+                <label for="altitudeControl">ALTITUDE</label>
+                <input id="altitudeControl" type="range" min="20" max="2500" value="500" />
+                <span id="altitudeControlVal">500 m</span>
+              </div>
+
+              <div class="teleport-panel">
+                <h2>TELEPORT TARGET</h2>
+                <select id="teleportSelect">
+                  <option value="">Select target...</option>
+                </select>
+                <div class="custom-teleport">
+                  <input id="customLat" type="number" step="0.000001" placeholder="Latitude" />
+                  <input id="customLng" type="number" step="0.000001" placeholder="Longitude" />
+                  <button id="customTeleportBtn" type="button">TELEPORT</button>
+                </div>
+              </div>
+
+              <div class="status-log" id="statusLog">
+                <p>System ready. Satellite map online.</p>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="missionSection" class="workspace-section active">
+          <div class="mission-layout">
+            <div id="missionMapMount" class="shared-map-mount"></div>
+
+            <aside class="mission-panel tactical-panel">
+              <h2>MISSION SETUP</h2>
+              <div class="mission-field-stack">
+                <label for="missionTarget">Mission Target</label>
+                <select id="missionTarget">
+                  <option value="Islamabad International Airport">Islamabad International Airport</option>
+                  <option value="Fateh Jhang Airfield">Fateh Jhang Airfield</option>
+                  <option value="Attock Fuel Storage Site">Attock Fuel Storage Site</option>
+                  <option value="Nur Khan Base">Nur Khan Base</option>
+                  <option value="Custom Coordinates">Custom Coordinates</option>
+                </select>
+                <input id="missionCoordinateReadout" type="text" value="33.554250, 72.830417" readonly />
+                <label for="missionType">Mission Type</label>
+                <select id="missionType">
+                  <option>Reconnaissance Patrol</option>
+                  <option>Airfield Surveillance</option>
+                  <option>Fuel Depot Inspection</option>
+                  <option>Infrastructure Monitoring</option>
+                </select>
+                <label for="missionAreaSize">Scan Area Size</label>
+                <select id="missionAreaSize">
+                  <option value="1x1">1 km x 1 km</option>
+                  <option value="2x2" selected>2 km x 2 km</option>
+                  <option value="3x3">3 km x 3 km</option>
+                  <option value="custom">Custom</option>
+                </select>
+                <div id="missionCustomAreaFields" class="mission-paired-inputs" hidden>
+                  <input id="missionAreaWidth" type="number" min="0.25" max="8" step="0.1" value="2" placeholder="Width km" />
+                  <input id="missionAreaHeight" type="number" min="0.25" max="8" step="0.1" value="2" placeholder="Height km" />
+                </div>
+                <label for="missionGridSize">Grid Size</label>
+                <select id="missionGridSize">
+                  <option value="2x2">2 x 2</option>
+                  <option value="3x3">3 x 3</option>
+                  <option value="4x4" selected>4 x 4</option>
+                  <option value="custom">Custom</option>
+                </select>
+                <div id="missionCustomGridFields" class="mission-paired-inputs" hidden>
+                  <input id="missionRows" type="number" min="2" max="8" step="1" value="4" placeholder="Rows" />
+                  <input id="missionColumns" type="number" min="2" max="8" step="1" value="4" placeholder="Columns" />
+                </div>
+                <label for="missionOverlap">Overlap</label>
+                <select id="missionOverlap">
+                  <option value="0">0%</option>
+                  <option value="10">10%</option>
+                  <option value="20" selected>20%</option>
+                  <option value="25">25%</option>
+                </select>
+                <label for="missionScanQuality">Scan Quality</label>
+                <select id="missionScanQuality">
+                  <option value="fast">Fast Scan</option>
+                  <option value="detection" selected>Detection Scan</option>
+                  <option value="detail">High-Detail Inspection</option>
+                </select>
+                <label for="missionCaptureFormat">Capture Format</label>
+                <select id="missionCaptureFormat">
+                  <option value="jpg" selected>High Quality JPG</option>
+                  <option value="png">PNG Lossless</option>
+                </select>
+              </div>
+              <div class="mission-actions">
+                <button id="missionUseViewBtn" type="button">USE CURRENT VIEW</button>
+                <button id="missionDrawBtn" type="button">DEFINE AREA</button>
+                <button id="missionPlanBtn" type="button">GENERATE GRID</button>
+                <button id="missionStartBtn" class="primary" type="button">START SCAN</button>
+                <button id="missionPauseBtn" type="button">PAUSE SCAN</button>
+                <button id="missionStopBtn" type="button">STOP SCAN</button>
+                <button id="missionClearBtn" type="button">CLEAR MISSION</button>
+                <button id="missionExportBtn" type="button">EXPORT REPORT</button>
+              </div>
+              <div class="mission-progress">
+                <div class="mission-progress-bar"><i id="missionProgressBar"></i></div>
+                <p id="missionProgressText">Mission area not defined.</p>
+              </div>
+              <img id="missionCurrentCapture" class="mission-current-capture" alt="Current mission sector capture" hidden />
+              <div id="missionLatestDetails" class="mission-latest-details">Latest sector: --</div>
+              <div class="telemetry-grid compact">
+                <div class="telemetry-card"><span>SECTOR</span><strong id="missionSectorVal">--</strong></div>
+                <div class="telemetry-card"><span>PROGRESS</span><strong id="missionProgressVal">0%</strong></div>
+                <div class="telemetry-card"><span>DETECTIONS</span><strong id="missionDetectionsVal">0</strong></div>
+                <div class="telemetry-card"><span>STATUS</span><strong id="missionStateVal">IDLE</strong></div>
+              </div>
+              <h2>DETECTION SUMMARY</h2>
+              <div class="mission-summary-grid">
+                <div><span>Total</span><strong id="missionTotalDetections">0</strong></div>
+                <div><span>Aircraft</span><strong id="missionAircraftCount">0</strong></div>
+                <div><span>Airport</span><strong id="missionAirportCount">0</strong></div>
+                <div><span>Storage Tanks</span><strong id="missionTankCount">0</strong></div>
+                <div><span>Avg Confidence</span><strong id="missionAvgConfidence">0</strong></div>
+                <div><span>Highest Sector</span><strong id="missionHighestSector">--</strong></div>
+                <div class="wide"><span>Assessment</span><strong id="missionAssessment">LOW ACTIVITY</strong></div>
+              </div>
+              <div class="mission-output-links">
+                <a id="missionJsonLink" href="#" target="_blank" hidden>Mission JSON</a>
+                <a id="missionCsvLink" href="#" target="_blank" hidden>CSV Summary</a>
+                <a id="missionReportLink" href="#" target="_blank" hidden>HTML Report</a>
+              </div>
+              <h2>SECTOR STATUS</h2>
+              <div id="missionSectorList" class="mission-sector-list"></div>
+              <h2>SECTOR RESULTS</h2>
+              <div class="mission-results-wrap">
+                <table class="mission-results-table">
+                  <thead>
+                    <tr>
+                      <th>Sector</th>
+                      <th>Status</th>
+                      <th>Aircraft</th>
+                      <th>Airport</th>
+                      <th>Storage Tanks</th>
+                      <th>Total</th>
+                      <th>Avg Confidence</th>
+                      <th>Open Image</th>
+                      <th>Details</th>
+                    </tr>
+                  </thead>
+                  <tbody id="missionResultsBody"></tbody>
+                </table>
+              </div>
+              <div id="missionSectorDetailsPanel" class="mission-sector-details">Select Details for a sector.</div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="liveSection" class="workspace-section">
+          <div class="live-layout">
+            <section class="live-left-stack">
+              <div id="liveMapMount" class="shared-map-mount"></div>
+              <aside class="live-control-panel tactical-panel">
+                <h2>DRONE CONTROL</h2>
+                <div class="telemetry-grid compact">
+                  <div class="telemetry-card"><span>LAT</span><strong id="liveLatVal">--</strong></div>
+                  <div class="telemetry-card"><span>LON</span><strong id="liveLonVal">--</strong></div>
+                  <div class="telemetry-card"><span>ALT</span><strong id="liveAltVal">--</strong></div>
+                  <div class="telemetry-card"><span>SPD</span><strong id="liveSpdVal">--</strong></div>
+                </div>
+                <div class="live-button-grid">
+                  <button id="liveFollowBtn" type="button">FOLLOW DRONE: ON</button>
+                  <button id="liveRecenterBtn" type="button">RECENTER ISB</button>
+                </div>
+                <div class="teleport-panel compact-teleport">
+                  <h2>TELEPORT TARGET</h2>
+                  <select id="liveTeleportSelect">
+                    <option value="">Select target...</option>
+                  </select>
+                </div>
+                <div class="mini-status">
+                  <p><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> Move <kbd>R</kbd><kbd>F</kbd> Altitude <kbd>SHIFT</kbd> Boost</p>
+                </div>
+              </aside>
+            </section>
+
+            <section class="live-preview-workspace tactical-panel">
+              <div id="liveCameraMount" class="live-camera-mount"></div>
+              <div class="live-action-panel">
+                <button id="liveDetectBtn">LIVE DETECTION: OFF</button>
+                <button id="openLivePreviewBtn" class="preview-button">OPEN LIVE PREVIEW</button>
+                <div class="live-badge-strip" aria-label="Live detection status">
+                  <span id="liveModelBadge">MODEL: OBB ACTIVE</span>
+                  <span id="liveStateBadge">LIVE: OFF</span>
+                  <span id="liveAltBadge">ALT: 500 m</span>
+                  <span id="liveZoomBadge">ZOOM: 18.00</span>
+                  <span id="liveDetectionsBadge">DETECTIONS: 0</span>
+                </div>
+                <p id="liveDetectStatus">Live detection OFF</p>
+              </div>
+              <div class="live-prediction-panel">
+                <h2>LIVE PREDICTION PREVIEW</h2>
+                <div id="livePredictionFrame" class="large-live-frame">
+                  <img id="liveModePreview" alt="Large live detection preview" />
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <section id="sharedMapDeck" class="map-wrap tactical-panel">
+      <div id="mainMap"></div>
+      <div id="mapLoading" class="map-loading" hidden>Loading map...</div>
+      <div class="map-overlay top-left">SATELLITE MAP VIEW</div>
+      <div class="map-controls">
+        <button id="mapZoomIn" type="button" aria-label="Zoom in">+</button>
+        <button id="mapZoomOut" type="button" aria-label="Zoom out">-</button>
+        <button id="mapAltUp" type="button">ALT +</button>
+        <button id="mapAltDown" type="button">ALT -</button>
+      </div>
+      <div class="map-overlay bottom-centre">Lightweight Leaflet Engine</div>
+    </section>
+
+    <section id="cameraDeck" class="camera-deck tactical-panel">
+      <h2>DOWNWARD CAMERA FEED</h2>
+      <div class="camera-shell">
+        <div id="cameraMap"></div>
+        <div class="crosshair horizontal"></div>
+        <div class="crosshair vertical"></div>
+        <div class="camera-label">LIVE NADIR VIEW</div>
+      </div>
+      <div class="camera-controls">
+        <label for="cameraZoom">CAMERA ZOOM</label>
+        <input id="cameraZoom" type="range" min="15" max="20" value="18" />
+        <span id="cameraZoomVal">18</span>
+      </div>
+      <div class="mission-status">
+        <h2>MISSION STATUS</h2>
+        <div class="bar-row"><span>LINK</span><i style="width: 96%"></i></div>
+        <div class="bar-row"><span>GPS</span><i style="width: 100%"></i></div>
+        <div class="bar-row"><span>MODEL</span><i id="modelBar" style="width: 28%"></i></div>
+      </div>
+    </section>
+
+    <footer class="bottombar tactical-panel">
+      <span>Imagery: Satellite tile proxy</span>
+      <span>Camera: Always-on live map feed</span>
+      <span>Capture: JPG saved to /captures</span>
+    </footer>
+  </div>
+
+  <div id="livePreviewModal" class="live-preview-modal" hidden>
+    <div class="live-preview-dialog tactical-panel" role="dialog" aria-modal="true" aria-labelledby="livePreviewTitle">
+      <div class="live-preview-header">
+        <h2 id="livePreviewTitle">LIVE DETECTION PREVIEW</h2>
+        <button id="closeLivePreviewBtn" type="button" aria-label="Close live preview">CLOSE</button>
+      </div>
+      <div class="live-preview-frame">
+        <img id="largeLivePreview" alt="Large live detection preview" />
+      </div>
+      <p id="livePreviewHint">Waiting for live detection frame.</p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/static/js/api.js?v=mission-layout-cleanup-3"></script>
+  <script src="/static/js/ui.js?v=mission-layout-cleanup-3"></script>
+  <script src="/static/js/app.js?v=mission-layout-cleanup-3"></script>
+  <script src="/static/js/map.js?v=mission-layout-cleanup-3"></script>
+  <script src="/static/js/camera.js?v=mission-layout-cleanup-3"></script>
+  <script src="/static/js/mission.js?v=mission-layout-cleanup-3"></script>
+</body>
+</html>

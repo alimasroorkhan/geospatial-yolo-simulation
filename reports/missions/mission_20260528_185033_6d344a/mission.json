@@ -1,0 +1,1295 @@
+{
+  "mission_id": "mission_20260528_185033_6d344a",
+  "created_at": "2026-05-28T18:50:33",
+  "completed_at": "2026-05-28T18:50:45",
+  "duration_seconds": 12.29,
+  "status": "complete",
+  "altitude": 500.0,
+  "camera_zoom": 16.0,
+  "plan": {
+    "bounds": {
+      "north": 33.55634497431583,
+      "south": 33.552428816647726,
+      "east": 72.83856350885979,
+      "west": 72.82564440790736
+    },
+    "rows": 4,
+    "columns": 4,
+    "overlap": 0.25,
+    "sectors": [
+      {
+        "id": "S001",
+        "row": 1,
+        "column": 1,
+        "order": 1,
+        "bounds": {
+          "north": 33.55634497431583,
+          "south": 33.555243554971675,
+          "east": 72.82927790505023,
+          "west": 72.82564440790736
+        },
+        "center": {
+          "lat": 33.55579426464375,
+          "lon": 72.82746115647879
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S002",
+        "row": 1,
+        "column": 2,
+        "order": 2,
+        "bounds": {
+          "north": 33.55634497431583,
+          "south": 33.555243554971675,
+          "east": 72.83250768028834,
+          "west": 72.82847046124071
+        },
+        "center": {
+          "lat": 33.55579426464375,
+          "lon": 72.83048907076453
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S003",
+        "row": 1,
+        "column": 3,
+        "order": 3,
+        "bounds": {
+          "north": 33.55634497431583,
+          "south": 33.555243554971675,
+          "east": 72.83573745552646,
+          "west": 72.83170023647882
+        },
+        "center": {
+          "lat": 33.55579426464375,
+          "lon": 72.83371884600264
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S004",
+        "row": 1,
+        "column": 4,
+        "order": 4,
+        "bounds": {
+          "north": 33.55634497431583,
+          "south": 33.555243554971675,
+          "east": 72.83856350885979,
+          "west": 72.83493001171692
+        },
+        "center": {
+          "lat": 33.55579426464375,
+          "lon": 72.83674676028835
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S005",
+        "row": 2,
+        "column": 4,
+        "order": 5,
+        "bounds": {
+          "north": 33.55548831482593,
+          "south": 33.55426451555465,
+          "east": 72.83856350885979,
+          "west": 72.83493001171692
+        },
+        "center": {
+          "lat": 33.55487641519029,
+          "lon": 72.83674676028835
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S006",
+        "row": 2,
+        "column": 3,
+        "order": 6,
+        "bounds": {
+          "north": 33.55548831482593,
+          "south": 33.55426451555465,
+          "east": 72.83573745552646,
+          "west": 72.83170023647882
+        },
+        "center": {
+          "lat": 33.55487641519029,
+          "lon": 72.83371884600264
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S007",
+        "row": 2,
+        "column": 2,
+        "order": 7,
+        "bounds": {
+          "north": 33.55548831482593,
+          "south": 33.55426451555465,
+          "east": 72.83250768028834,
+          "west": 72.82847046124071
+        },
+        "center": {
+          "lat": 33.55487641519029,
+          "lon": 72.83048907076453
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S008",
+        "row": 2,
+        "column": 1,
+        "order": 8,
+        "bounds": {
+          "north": 33.55548831482593,
+          "south": 33.55426451555465,
+          "east": 72.82927790505023,
+          "west": 72.82564440790736
+        },
+        "center": {
+          "lat": 33.55487641519029,
+          "lon": 72.82746115647879
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S009",
+        "row": 3,
+        "column": 1,
+        "order": 9,
+        "bounds": {
+          "north": 33.554509275408904,
+          "south": 33.553285476137624,
+          "east": 72.82927790505023,
+          "west": 72.82564440790736
+        },
+        "center": {
+          "lat": 33.55389737577326,
+          "lon": 72.82746115647879
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S010",
+        "row": 3,
+        "column": 2,
+        "order": 10,
+        "bounds": {
+          "north": 33.554509275408904,
+          "south": 33.553285476137624,
+          "east": 72.83250768028834,
+          "west": 72.82847046124071
+        },
+        "center": {
+          "lat": 33.55389737577326,
+          "lon": 72.83048907076453
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S011",
+        "row": 3,
+        "column": 3,
+        "order": 11,
+        "bounds": {
+          "north": 33.554509275408904,
+          "south": 33.553285476137624,
+          "east": 72.83573745552646,
+          "west": 72.83170023647882
+        },
+        "center": {
+          "lat": 33.55389737577326,
+          "lon": 72.83371884600264
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S012",
+        "row": 3,
+        "column": 4,
+        "order": 12,
+        "bounds": {
+          "north": 33.554509275408904,
+          "south": 33.553285476137624,
+          "east": 72.83856350885979,
+          "west": 72.83493001171692
+        },
+        "center": {
+          "lat": 33.55389737577326,
+          "lon": 72.83674676028835
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S013",
+        "row": 4,
+        "column": 4,
+        "order": 13,
+        "bounds": {
+          "north": 33.55353023599188,
+          "south": 33.552428816647726,
+          "east": 72.83856350885979,
+          "west": 72.83493001171692
+        },
+        "center": {
+          "lat": 33.5529795263198,
+          "lon": 72.83674676028835
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S014",
+        "row": 4,
+        "column": 3,
+        "order": 14,
+        "bounds": {
+          "north": 33.55353023599188,
+          "south": 33.552428816647726,
+          "east": 72.83573745552646,
+          "west": 72.83170023647882
+        },
+        "center": {
+          "lat": 33.5529795263198,
+          "lon": 72.83371884600264
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S015",
+        "row": 4,
+        "column": 2,
+        "order": 15,
+        "bounds": {
+          "north": 33.55353023599188,
+          "south": 33.552428816647726,
+          "east": 72.83250768028834,
+          "west": 72.82847046124071
+        },
+        "center": {
+          "lat": 33.5529795263198,
+          "lon": 72.83048907076453
+        },
+        "status": "pending"
+      },
+      {
+        "id": "S016",
+        "row": 4,
+        "column": 1,
+        "order": 16,
+        "bounds": {
+          "north": 33.55353023599188,
+          "south": 33.552428816647726,
+          "east": 72.82927790505023,
+          "west": 72.82564440790736
+        },
+        "center": {
+          "lat": 33.5529795263198,
+          "lon": 72.82746115647879
+        },
+        "status": "pending"
+      }
+    ],
+    "path": [
+      {
+        "lat": 33.55579426464375,
+        "lon": 72.82746115647879
+      },
+      {
+        "lat": 33.55579426464375,
+        "lon": 72.83048907076453
+      },
+      {
+        "lat": 33.55579426464375,
+        "lon": 72.83371884600264
+      },
+      {
+        "lat": 33.55579426464375,
+        "lon": 72.83674676028835
+      },
+      {
+        "lat": 33.55487641519029,
+        "lon": 72.83674676028835
+      },
+      {
+        "lat": 33.55487641519029,
+        "lon": 72.83371884600264
+      },
+      {
+        "lat": 33.55487641519029,
+        "lon": 72.83048907076453
+      },
+      {
+        "lat": 33.55487641519029,
+        "lon": 72.82746115647879
+      },
+      {
+        "lat": 33.55389737577326,
+        "lon": 72.82746115647879
+      },
+      {
+        "lat": 33.55389737577326,
+        "lon": 72.83048907076453
+      },
+      {
+        "lat": 33.55389737577326,
+        "lon": 72.83371884600264
+      },
+      {
+        "lat": 33.55389737577326,
+        "lon": 72.83674676028835
+      },
+      {
+        "lat": 33.5529795263198,
+        "lon": 72.83674676028835
+      },
+      {
+        "lat": 33.5529795263198,
+        "lon": 72.83371884600264
+      },
+      {
+        "lat": 33.5529795263198,
+        "lon": 72.83048907076453
+      },
+      {
+        "lat": 33.5529795263198,
+        "lon": 72.82746115647879
+      }
+    ]
+  },
+  "sector_results": [
+    {
+      "sector_id": "S001",
+      "order": 1,
+      "row": 1,
+      "column": 1,
+      "status": "complete",
+      "center": {
+        "lat": 33.55579426464375,
+        "lon": 72.82746115647879
+      },
+      "bounds": {
+        "north": 33.55634497431583,
+        "south": 33.555243554971675,
+        "east": 72.82927790505023,
+        "west": 72.82564440790736
+      },
+      "heading": 0.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S001_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S001_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S001_prediction.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sector_id": "S002",
+      "order": 2,
+      "row": 1,
+      "column": 2,
+      "status": "complete",
+      "center": {
+        "lat": 33.55579426464375,
+        "lon": 72.83048907076453
+      },
+      "bounds": {
+        "north": 33.55634497431583,
+        "south": 33.555243554971675,
+        "east": 72.83250768028834,
+        "west": 72.82847046124071
+      },
+      "heading": 90.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S002_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S002_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S002_prediction.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sector_id": "S003",
+      "order": 3,
+      "row": 1,
+      "column": 3,
+      "status": "complete",
+      "center": {
+        "lat": 33.55579426464375,
+        "lon": 72.83371884600264
+      },
+      "bounds": {
+        "north": 33.55634497431583,
+        "south": 33.555243554971675,
+        "east": 72.83573745552646,
+        "west": 72.83170023647882
+      },
+      "heading": 90.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S003_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S003_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S003_prediction.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sector_id": "S004",
+      "order": 4,
+      "row": 1,
+      "column": 4,
+      "status": "complete",
+      "center": {
+        "lat": 33.55579426464375,
+        "lon": 72.83674676028835
+      },
+      "bounds": {
+        "north": 33.55634497431583,
+        "south": 33.555243554971675,
+        "east": 72.83856350885979,
+        "west": 72.83493001171692
+      },
+      "heading": 90.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S004_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S004_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S004_prediction.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sector_id": "S005",
+      "order": 5,
+      "row": 2,
+      "column": 4,
+      "status": "complete",
+      "center": {
+        "lat": 33.55487641519029,
+        "lon": 72.83674676028835
+      },
+      "bounds": {
+        "north": 33.55548831482593,
+        "south": 33.55426451555465,
+        "east": 72.83856350885979,
+        "west": 72.83493001171692
+      },
+      "heading": 180.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S005_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S005_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S005_prediction.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sector_id": "S006",
+      "order": 6,
+      "row": 2,
+      "column": 3,
+      "status": "detection-positive",
+      "center": {
+        "lat": 33.55487641519029,
+        "lon": 72.83371884600264
+      },
+      "bounds": {
+        "north": 33.55548831482593,
+        "south": 33.55426451555465,
+        "east": 72.83573745552646,
+        "west": 72.83170023647882
+      },
+      "heading": 270.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S006_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S006_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S006_prediction.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.8576,
+          "polygon": [
+            [
+              678.78,
+              340.21
+            ],
+            [
+              688.18,
+              214.37
+            ],
+            [
+              471.64,
+              198.19
+            ],
+            [
+              462.24,
+              324.04
+            ]
+          ],
+          "sector_id": "S006",
+          "sector_order": 6,
+          "sector_center": {
+            "lat": 33.55487641519029,
+            "lon": 72.83371884600264
+          },
+          "sector_bounds": {
+            "north": 33.55548831482593,
+            "south": 33.55426451555465,
+            "east": 72.83573745552646,
+            "west": 72.83170023647882
+          }
+        }
+      ]
+    },
+    {
+      "sector_id": "S007",
+      "order": 7,
+      "row": 2,
+      "column": 2,
+      "status": "complete",
+      "center": {
+        "lat": 33.55487641519029,
+        "lon": 72.83048907076453
+      },
+      "bounds": {
+        "north": 33.55548831482593,
+        "south": 33.55426451555465,
+        "east": 72.83250768028834,
+        "west": 72.82847046124071
+      },
+      "heading": 270.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S007_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S007_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S007_prediction.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sector_id": "S008",
+      "order": 8,
+      "row": 2,
+      "column": 1,
+      "status": "complete",
+      "center": {
+        "lat": 33.55487641519029,
+        "lon": 72.82746115647879
+      },
+      "bounds": {
+        "north": 33.55548831482593,
+        "south": 33.55426451555465,
+        "east": 72.82927790505023,
+        "west": 72.82564440790736
+      },
+      "heading": 270.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S008_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S008_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S008_prediction.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sector_id": "S009",
+      "order": 9,
+      "row": 3,
+      "column": 1,
+      "status": "detection-positive",
+      "center": {
+        "lat": 33.55389737577326,
+        "lon": 72.82746115647879
+      },
+      "bounds": {
+        "north": 33.554509275408904,
+        "south": 33.553285476137624,
+        "east": 72.82927790505023,
+        "west": 72.82564440790736
+      },
+      "heading": 180.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S009_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S009_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S009_prediction.jpg",
+      "detection_count": 3,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.9096,
+          "polygon": [
+            [
+              959.12,
+              231.87
+            ],
+            [
+              1037.94,
+              152.09
+            ],
+            [
+              956.76,
+              71.88
+            ],
+            [
+              877.94,
+              151.66
+            ]
+          ],
+          "sector_id": "S009",
+          "sector_order": 9,
+          "sector_center": {
+            "lat": 33.55389737577326,
+            "lon": 72.82746115647879
+          },
+          "sector_bounds": {
+            "north": 33.554509275408904,
+            "south": 33.553285476137624,
+            "east": 72.82927790505023,
+            "west": 72.82564440790736
+          }
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.9071,
+          "polygon": [
+            [
+              743.17,
+              317.77
+            ],
+            [
+              820.93,
+              244.66
+            ],
+            [
+              743.05,
+              161.82
+            ],
+            [
+              665.28,
+              234.93
+            ]
+          ],
+          "sector_id": "S009",
+          "sector_order": 9,
+          "sector_center": {
+            "lat": 33.55389737577326,
+            "lon": 72.82746115647879
+          },
+          "sector_bounds": {
+            "north": 33.554509275408904,
+            "south": 33.553285476137624,
+            "east": 72.82927790505023,
+            "west": 72.82564440790736
+          }
+        },
+        {
+          "class_name": "airplane",
+          "confidence": 0.8651,
+          "polygon": [
+            [
+              573.0,
+              362.65
+            ],
+            [
+              636.97,
+              295.52
+            ],
+            [
+              561.7,
+              223.8
+            ],
+            [
+              497.74,
+              290.93
+            ]
+          ],
+          "sector_id": "S009",
+          "sector_order": 9,
+          "sector_center": {
+            "lat": 33.55389737577326,
+            "lon": 72.82746115647879
+          },
+          "sector_bounds": {
+            "north": 33.554509275408904,
+            "south": 33.553285476137624,
+            "east": 72.82927790505023,
+            "west": 72.82564440790736
+          }
+        }
+      ]
+    },
+    {
+      "sector_id": "S010",
+      "order": 10,
+      "row": 3,
+      "column": 2,
+      "status": "complete",
+      "center": {
+        "lat": 33.55389737577326,
+        "lon": 72.83048907076453
+      },
+      "bounds": {
+        "north": 33.554509275408904,
+        "south": 33.553285476137624,
+        "east": 72.83250768028834,
+        "west": 72.82847046124071
+      },
+      "heading": 90.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S010_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S010_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S010_prediction.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sector_id": "S011",
+      "order": 11,
+      "row": 3,
+      "column": 3,
+      "status": "detection-positive",
+      "center": {
+        "lat": 33.55389737577326,
+        "lon": 72.83371884600264
+      },
+      "bounds": {
+        "north": 33.554509275408904,
+        "south": 33.553285476137624,
+        "east": 72.83573745552646,
+        "west": 72.83170023647882
+      },
+      "heading": 90.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S011_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S011_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S011_prediction.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.8815,
+          "polygon": [
+            [
+              669.48,
+              128.22
+            ],
+            [
+              684.93,
+              6.03
+            ],
+            [
+              471.29,
+              -20.97
+            ],
+            [
+              455.85,
+              101.21
+            ]
+          ],
+          "sector_id": "S011",
+          "sector_order": 11,
+          "sector_center": {
+            "lat": 33.55389737577326,
+            "lon": 72.83371884600264
+          },
+          "sector_bounds": {
+            "north": 33.554509275408904,
+            "south": 33.553285476137624,
+            "east": 72.83573745552646,
+            "west": 72.83170023647882
+          }
+        }
+      ]
+    },
+    {
+      "sector_id": "S012",
+      "order": 12,
+      "row": 3,
+      "column": 4,
+      "status": "detection-positive",
+      "center": {
+        "lat": 33.55389737577326,
+        "lon": 72.83674676028835
+      },
+      "bounds": {
+        "north": 33.554509275408904,
+        "south": 33.553285476137624,
+        "east": 72.83856350885979,
+        "west": 72.83493001171692
+      },
+      "heading": 90.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S012_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S012_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S012_prediction.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.9274,
+          "polygon": [
+            [
+              373.81,
+              152.74
+            ],
+            [
+              388.56,
+              61.07
+            ],
+            [
+              267.68,
+              41.63
+            ],
+            [
+              252.93,
+              133.3
+            ]
+          ],
+          "sector_id": "S012",
+          "sector_order": 12,
+          "sector_center": {
+            "lat": 33.55389737577326,
+            "lon": 72.83674676028835
+          },
+          "sector_bounds": {
+            "north": 33.554509275408904,
+            "south": 33.553285476137624,
+            "east": 72.83856350885979,
+            "west": 72.83493001171692
+          }
+        }
+      ]
+    },
+    {
+      "sector_id": "S013",
+      "order": 13,
+      "row": 4,
+      "column": 4,
+      "status": "complete",
+      "center": {
+        "lat": 33.5529795263198,
+        "lon": 72.83674676028835
+      },
+      "bounds": {
+        "north": 33.55353023599188,
+        "south": 33.552428816647726,
+        "east": 72.83856350885979,
+        "west": 72.83493001171692
+      },
+      "heading": 180.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S013_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S013_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S013_prediction.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sector_id": "S014",
+      "order": 14,
+      "row": 4,
+      "column": 3,
+      "status": "complete",
+      "center": {
+        "lat": 33.5529795263198,
+        "lon": 72.83371884600264
+      },
+      "bounds": {
+        "north": 33.55353023599188,
+        "south": 33.552428816647726,
+        "east": 72.83573745552646,
+        "west": 72.83170023647882
+      },
+      "heading": 270.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S014_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S014_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S014_prediction.jpg",
+      "detection_count": 0,
+      "detections": []
+    },
+    {
+      "sector_id": "S015",
+      "order": 15,
+      "row": 4,
+      "column": 2,
+      "status": "detection-positive",
+      "center": {
+        "lat": 33.5529795263198,
+        "lon": 72.83048907076453
+      },
+      "bounds": {
+        "north": 33.55353023599188,
+        "south": 33.552428816647726,
+        "east": 72.83250768028834,
+        "west": 72.82847046124071
+      },
+      "heading": 270.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S015_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S015_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S015_prediction.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.9147,
+          "polygon": [
+            [
+              360.82,
+              226.65
+            ],
+            [
+              448.98,
+              153.61
+            ],
+            [
+              371.73,
+              60.37
+            ],
+            [
+              283.57,
+              133.41
+            ]
+          ],
+          "sector_id": "S015",
+          "sector_order": 15,
+          "sector_center": {
+            "lat": 33.5529795263198,
+            "lon": 72.83048907076453
+          },
+          "sector_bounds": {
+            "north": 33.55353023599188,
+            "south": 33.552428816647726,
+            "east": 72.83250768028834,
+            "west": 72.82847046124071
+          }
+        }
+      ]
+    },
+    {
+      "sector_id": "S016",
+      "order": 16,
+      "row": 4,
+      "column": 1,
+      "status": "detection-positive",
+      "center": {
+        "lat": 33.5529795263198,
+        "lon": 72.82746115647879
+      },
+      "bounds": {
+        "north": 33.55353023599188,
+        "south": 33.552428816647726,
+        "east": 72.82927790505023,
+        "west": 72.82564440790736
+      },
+      "heading": 270.0,
+      "capture_url": "/captures/missions/mission_20260528_185033_6d344a/S016_annotated.jpg",
+      "raw_capture_url": "/captures/missions/mission_20260528_185033_6d344a/S016_raw.jpg",
+      "prediction_url": "/captures/missions/mission_20260528_185033_6d344a/S016_prediction.jpg",
+      "detection_count": 1,
+      "detections": [
+        {
+          "class_name": "airplane",
+          "confidence": 0.9011,
+          "polygon": [
+            [
+              572.46,
+              133.33
+            ],
+            [
+              651.39,
+              54.82
+            ],
+            [
+              566.64,
+              -30.39
+            ],
+            [
+              487.71,
+              48.12
+            ]
+          ],
+          "sector_id": "S016",
+          "sector_order": 16,
+          "sector_center": {
+            "lat": 33.5529795263198,
+            "lon": 72.82746115647879
+          },
+          "sector_bounds": {
+            "north": 33.55353023599188,
+            "south": 33.552428816647726,
+            "east": 72.82927790505023,
+            "west": 72.82564440790736
+          }
+        }
+      ]
+    }
+  ],
+  "detections": [
+    {
+      "class_name": "airplane",
+      "confidence": 0.8576,
+      "polygon": [
+        [
+          678.78,
+          340.21
+        ],
+        [
+          688.18,
+          214.37
+        ],
+        [
+          471.64,
+          198.19
+        ],
+        [
+          462.24,
+          324.04
+        ]
+      ],
+      "sector_id": "S006",
+      "sector_order": 6,
+      "sector_center": {
+        "lat": 33.55487641519029,
+        "lon": 72.83371884600264
+      },
+      "sector_bounds": {
+        "north": 33.55548831482593,
+        "south": 33.55426451555465,
+        "east": 72.83573745552646,
+        "west": 72.83170023647882
+      }
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.9096,
+      "polygon": [
+        [
+          959.12,
+          231.87
+        ],
+        [
+          1037.94,
+          152.09
+        ],
+        [
+          956.76,
+          71.88
+        ],
+        [
+          877.94,
+          151.66
+        ]
+      ],
+      "sector_id": "S009",
+      "sector_order": 9,
+      "sector_center": {
+        "lat": 33.55389737577326,
+        "lon": 72.82746115647879
+      },
+      "sector_bounds": {
+        "north": 33.554509275408904,
+        "south": 33.553285476137624,
+        "east": 72.82927790505023,
+        "west": 72.82564440790736
+      }
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.9071,
+      "polygon": [
+        [
+          743.17,
+          317.77
+        ],
+        [
+          820.93,
+          244.66
+        ],
+        [
+          743.05,
+          161.82
+        ],
+        [
+          665.28,
+          234.93
+        ]
+      ],
+      "sector_id": "S009",
+      "sector_order": 9,
+      "sector_center": {
+        "lat": 33.55389737577326,
+        "lon": 72.82746115647879
+      },
+      "sector_bounds": {
+        "north": 33.554509275408904,
+        "south": 33.553285476137624,
+        "east": 72.82927790505023,
+        "west": 72.82564440790736
+      }
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8651,
+      "polygon": [
+        [
+          573.0,
+          362.65
+        ],
+        [
+          636.97,
+          295.52
+        ],
+        [
+          561.7,
+          223.8
+        ],
+        [
+          497.74,
+          290.93
+        ]
+      ],
+      "sector_id": "S009",
+      "sector_order": 9,
+      "sector_center": {
+        "lat": 33.55389737577326,
+        "lon": 72.82746115647879
+      },
+      "sector_bounds": {
+        "north": 33.554509275408904,
+        "south": 33.553285476137624,
+        "east": 72.82927790505023,
+        "west": 72.82564440790736
+      }
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.8815,
+      "polygon": [
+        [
+          669.48,
+          128.22
+        ],
+        [
+          684.93,
+          6.03
+        ],
+        [
+          471.29,
+          -20.97
+        ],
+        [
+          455.85,
+          101.21
+        ]
+      ],
+      "sector_id": "S011",
+      "sector_order": 11,
+      "sector_center": {
+        "lat": 33.55389737577326,
+        "lon": 72.83371884600264
+      },
+      "sector_bounds": {
+        "north": 33.554509275408904,
+        "south": 33.553285476137624,
+        "east": 72.83573745552646,
+        "west": 72.83170023647882
+      }
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.9274,
+      "polygon": [
+        [
+          373.81,
+          152.74
+        ],
+        [
+          388.56,
+          61.07
+        ],
+        [
+          267.68,
+          41.63
+        ],
+        [
+          252.93,
+          133.3
+        ]
+      ],
+      "sector_id": "S012",
+      "sector_order": 12,
+      "sector_center": {
+        "lat": 33.55389737577326,
+        "lon": 72.83674676028835
+      },
+      "sector_bounds": {
+        "north": 33.554509275408904,
+        "south": 33.553285476137624,
+        "east": 72.83856350885979,
+        "west": 72.83493001171692
+      }
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.9147,
+      "polygon": [
+        [
+          360.82,
+          226.65
+        ],
+        [
+          448.98,
+          153.61
+        ],
+        [
+          371.73,
+          60.37
+        ],
+        [
+          283.57,
+          133.41
+        ]
+      ],
+      "sector_id": "S015",
+      "sector_order": 15,
+      "sector_center": {
+        "lat": 33.5529795263198,
+        "lon": 72.83048907076453
+      },
+      "sector_bounds": {
+        "north": 33.55353023599188,
+        "south": 33.552428816647726,
+        "east": 72.83250768028834,
+        "west": 72.82847046124071
+      }
+    },
+    {
+      "class_name": "airplane",
+      "confidence": 0.9011,
+      "polygon": [
+        [
+          572.46,
+          133.33
+        ],
+        [
+          651.39,
+          54.82
+        ],
+        [
+          566.64,
+          -30.39
+        ],
+        [
+          487.71,
+          48.12
+        ]
+      ],
+      "sector_id": "S016",
+      "sector_order": 16,
+      "sector_center": {
+        "lat": 33.5529795263198,
+        "lon": 72.82746115647879
+      },
+      "sector_bounds": {
+        "north": 33.55353023599188,
+        "south": 33.552428816647726,
+        "east": 72.82927790505023,
+        "west": 72.82564440790736
+      }
+    }
+  ],
+  "summary": {
+    "total_sectors": 16,
+    "sectors_scanned": 16,
+    "total_detections": 8,
+    "detections_per_class": {
+      "airplane": 8
+    }
+  },
+  "outputs": {
+    "json": "/reports/missions/mission_20260528_185033_6d344a/mission.json",
+    "csv": "/reports/missions/mission_20260528_185033_6d344a/summary.csv",
+    "html": "/reports/missions/mission_20260528_185033_6d344a/report.html"
+  }
+}
