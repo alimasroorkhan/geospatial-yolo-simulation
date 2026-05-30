@@ -1,2 +1,0 @@
-mission_id,sector_id,target_name,mission_type,centre_lat,centre_lng,north,south,east,west,detection_count,airplane_count,airport_count,storage_tank_count,average_confidence,raw_image_url,prediction_image_url
-mission_20260528141637,A1,Custom Coordinates,Reconnaissance Patrol,33.56142035482284,73.06878915284841,33.56366613276032,33.55917457688536,73.07148400442493,73.0660943012719,0,0,0,0,0,/captures/missions/mission_20260528141637/raw/sector_A1.jpg,/captures/missions/mission_20260528141637/predictions/sector_A1_pred.jpg
